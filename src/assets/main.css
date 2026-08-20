@@ -1,0 +1,94 @@
+@import 'tailwindcss';
+
+@theme {
+  /* ===== 第一層:原始色階(字面命名) ===== */
+
+  /* 森林綠 - 品牌主色 */
+  --color-forest-500: #0f4743;
+  --color-forest-600: #2c5f5a;
+  --color-forest-200: #a3d7d0;
+  --color-forest-100: #b8ede6;
+
+  /* 灰綠 - 次要色 */
+  --color-sage-500: #456367;
+  --color-sage-200: #acccd0;
+
+  /* 陶土棕 - 強調色 */
+  --color-clay-500: #5f3500;
+  --color-clay-600: #7f4a04;
+  --color-clay-200: #ffb870;
+
+  /* 米白 - 背景色階 */
+  --color-paper-500: #faf9f5;
+  --color-paper-600: #dbdad6;
+  --color-paper-400: #e3e2df;
+  --color-paper-300: #efeeea;
+  --color-paper-200: #f4f4f0;
+  --color-paper-100: #e9e8e4;
+  --color-paper-50: #ffffff;
+
+  /* 墨色 - 文字/邊框階 */
+  --color-ink-900: #1b1c1a;
+  --color-ink-600: #404847;
+  --color-ink-400: #707977;
+  --color-ink-200: #bfc8c6;
+
+  /* ===== 第二層:語意別名(功能命名) ===== */
+
+  --color-primary: var(--color-forest-500);
+  --color-primary-deep: var(--color-forest-600);
+  --color-primary-soft: var(--color-forest-200);
+  --color-primary-mist: var(--color-forest-100);
+
+  --color-secondary: var(--color-sage-500);
+  --color-secondary-soft: var(--color-sage-200);
+
+  --color-accent: var(--color-clay-500);
+  --color-accent-deep: var(--color-clay-600);
+  --color-accent-soft: var(--color-clay-200);
+
+  --color-surface: var(--color-paper-500);
+  --color-surface-dim: var(--color-paper-600);
+  --color-surface-tint: var(--color-paper-400);
+  --color-card: var(--color-paper-300);
+  --color-card-low: var(--color-paper-200);
+  --color-card-high: var(--color-paper-100);
+  --color-card-white: var(--color-paper-50);
+
+  --color-text: var(--color-ink-900);
+  --color-text-soft: var(--color-ink-600);
+  --color-border: var(--color-ink-400);
+  --color-border-soft: var(--color-ink-200);
+
+  /* 字型:分開定義兩套字,方便之後想單獨取用某一套時直接引用 */
+  --font-inter: 'Inter', sans-serif;
+  --font-noto-sans-tc: 'Noto Sans TC', sans-serif;
+
+  /* 全站實際套用的字型堆疊(英文優先 Inter,中文 fallback Noto Sans TC) */
+  --font-body: 'Inter', 'Noto Sans TC', sans-serif;
+
+  /* 字級系統:只留大小 + 行高,字距、字重都不放進來,需要時臨時加 Tailwind 內建 class */
+  --text-sm: 14px;
+  --text-sm--line-height: 20px;
+
+  --text-base: 16px;
+  --text-base--line-height: 24px;
+
+  --text-lg: 18px;
+  --text-lg--line-height: 28px;
+
+  --text-xl: 24px;
+  --text-xl--line-height: 32px;
+
+  --text-2xl: 32px;
+  --text-2xl--line-height: 40px;
+
+  --text-3xl: 48px;
+  --text-3xl--line-height: 56px;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--text-base--line-height);
+}
