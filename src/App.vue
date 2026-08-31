@@ -1,7 +1,9 @@
-<script setup lang="ts"></script>
-
 <template>
-  <h1 class="bg-primary text-xl text-green-600">Hello Coleoptera Diary</h1>
+  <Header></Header>
 </template>
+
+<script setup lang="ts">
+import Header from './components/layout/header.vue'
+</script>
 
 <style scoped></style>
