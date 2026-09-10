@@ -6,7 +6,7 @@ import { Search } from '@lucide/vue'
   <header
     class="sticky top-0 z-50 bg-surface/80 backdrop-blur-md border-b border-border-soft/30 shadow-[0px_10px_30px_rgba(27,42,65,0.05)] text-sm font-semibold tracking-wider"
   >
-    <div class="flex justify-between items-center px-8 h-20 max-w-[1200px] mx-auto">
+    <div class="flex justify-between items-center px-8 h-20 max-w-[1440px] mx-auto">
       <!-- Logo -->
       <a href="#" class="text-xl font-semibold tracking-tight text-primary"> 蟲生.蟲森 </a>
 
