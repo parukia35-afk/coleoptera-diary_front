@@ -1,0 +1,601 @@
+<!doctype html>
+
+<html class="light" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Coleoptera Diary - Home</title>
+    <!-- Material Symbols -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <!-- Tailwind Config injected from Style Guidance -->
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              surface: '#faf9f5',
+              'primary-container': '#2c5f5a',
+              'on-secondary-container': '#49686b',
+              'outline-variant': '#bfc8c6',
+              'on-primary-container': '#a3d7d0',
+              'surface-container-high': '#e9e8e4',
+              'on-primary-fixed-variant': '#194f4a',
+              'on-tertiary-container': '#ffc083',
+              'surface-container-lowest': '#ffffff',
+              'on-tertiary-fixed': '#2d1600',
+              'on-primary-fixed': '#00201d',
+              'inverse-primary': '#9cd0ca',
+              'on-secondary': '#ffffff',
+              'secondary-fixed-dim': '#acccd0',
+              primary: '#0f4743',
+              'surface-bright': '#faf9f5',
+              'on-surface': '#1b1c1a',
+              'on-surface-variant': '#404847',
+              'surface-container-low': '#f4f4f0',
+              'on-secondary-fixed-variant': '#2d4c4f',
+              'on-error-container': '#93000a',
+              'tertiary-fixed-dim': '#ffb870',
+              'error-container': '#ffdad6',
+              'secondary-container': '#c5e6e9',
+              error: '#ba1a1a',
+              'primary-fixed-dim': '#9cd0ca',
+              'on-background': '#1b1c1a',
+              'secondary-fixed': '#c8e9ec',
+              outline: '#707977',
+              tertiary: '#5f3500',
+              'tertiary-fixed': '#ffdcbe',
+              'surface-dim': '#dbdad6',
+              secondary: '#456367',
+              'surface-container': '#efeeea',
+              'on-error': '#ffffff',
+              'inverse-on-surface': '#f2f1ed',
+              'on-primary': '#ffffff',
+              'inverse-surface': '#2f312e',
+              'surface-container-highest': '#e3e2df',
+              'on-tertiary-fixed-variant': '#693c00',
+              background: '#faf9f5',
+              'surface-variant': '#e3e2df',
+              'on-secondary-fixed': '#002022',
+              'primary-fixed': '#b8ede6',
+              'surface-tint': '#346762',
+              'on-tertiary': '#ffffff',
+              'tertiary-container': '#7f4a04',
+            },
+            borderRadius: {
+              DEFAULT: '0.25rem',
+              lg: '0.5rem',
+              xl: '0.75rem',
+              full: '9999px',
+            },
+            spacing: {
+              md: '24px',
+              base: '8px',
+              xs: '4px',
+              sm: '12px',
+              lg: '48px',
+              gutter: '24px',
+              'container-max': '1200px',
+              xl: '80px',
+            },
+            fontFamily: {
+              'label-md': ['Manrope'],
+              'display-lg': ['Manrope'],
+              'headline-lg-mobile': ['Manrope'],
+              'headline-lg': ['Manrope'],
+              'body-md': ['Inter'],
+              'body-lg': ['Inter'],
+              'headline-md': ['Manrope'],
+            },
+            fontSize: {
+              'label-md': [
+                '14px',
+                { lineHeight: '20px', letterSpacing: '0.05em', fontWeight: '600' },
+              ],
+              'display-lg': [
+                '48px',
+                { lineHeight: '56px', letterSpacing: '-0.02em', fontWeight: '800' },
+              ],
+              'headline-lg-mobile': ['28px', { lineHeight: '36px', fontWeight: '700' }],
+              'headline-lg': [
+                '32px',
+                { lineHeight: '40px', letterSpacing: '-0.01em', fontWeight: '700' },
+              ],
+              'body-md': ['16px', { lineHeight: '24px', fontWeight: '400' }],
+              'body-lg': ['18px', { lineHeight: '28px', fontWeight: '400' }],
+              'headline-md': ['24px', { lineHeight: '32px', fontWeight: '600' }],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .hero-bg {
+        background: linear-gradient(135deg, #0f4743 0%, #194f4a 100%);
+        position: relative;
+        overflow: hidden;
+      }
+      .hero-bg::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(163, 215, 208, 0.05) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(163, 215, 208, 0.05) 1px, transparent 1px);
+        background-size: 32px 32px;
+        opacity: 0.5;
+      }
+      .hero-glow {
+        position: absolute;
+        top: -20%;
+        left: -10%;
+        width: 70%;
+        height: 70%;
+        background: radial-gradient(circle, rgba(168, 101, 74, 0.15) 0%, transparent 70%);
+        border-radius: 50%;
+        filter: blur(40px);
+        pointer-events: none;
+      }
+      .naturalist-shadow {
+        box-shadow: 0px 10px 30px rgba(27, 42, 65, 0.05);
+      }
+      .glass-panel {
+        background: rgba(250, 249, 245, 0.8);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(191, 200, 198, 0.3);
+      }
+    </style>
+  </head>
+  <body
+    class="bg-surface text-on-surface font-body-md text-body-md flex min-h-screen flex-col antialiased"
+  >
+    <!-- TopNavBar -->
+    <header
+      class="bg-surface/80 dark:bg-surface-dim/80 text-primary dark:text-primary-fixed-dim font-label-md text-label-md border-outline-variant/30 dark:border-outline/20 sticky top-0 z-50 w-full border-b shadow-[0px_10px_30px_rgba(27,42,65,0.05)] backdrop-blur-md"
+    >
+      <div class="mx-auto flex h-20 max-w-[1200px] items-center justify-between px-8">
+        <div class="gap-md flex items-center">
+          <a
+            class="font-display-lg text-headline-md text-primary dark:text-primary-fixed-dim tracking-tight"
+            href="#"
+            >Coleoptera Diary</a
+          >
+        </div>
+        <nav class="gap-md hidden items-center md:flex">
+          <a
+            class="text-primary dark:text-primary-fixed border-primary dark:border-primary-fixed border-b-2 pb-1"
+            href="#"
+            >Home</a
+          >
+          <a
+            class="text-on-surface-variant dark:text-outline-variant hover:text-primary dark:hover:text-primary-fixed hover:bg-surface-container-low dark:hover:bg-surface-container-high rounded px-3 py-2 transition-all transition-colors duration-300"
+            href="#"
+            >Breeding Articles</a
+          >
+          <a
+            class="text-on-surface-variant dark:text-outline-variant hover:text-primary dark:hover:text-primary-fixed hover:bg-surface-container-low dark:hover:bg-surface-container-high rounded px-3 py-2 transition-all transition-colors duration-300"
+            href="#"
+            >Species Records</a
+          >
+          <a
+            class="text-on-surface-variant dark:text-outline-variant hover:text-primary dark:hover:text-primary-fixed hover:bg-surface-container-low dark:hover:bg-surface-container-high rounded px-3 py-2 transition-all transition-colors duration-300"
+            href="#"
+            >Short Notes</a
+          >
+        </nav>
+        <div class="gap-sm flex items-center">
+          <button
+            class="text-primary hover:bg-surface-container-low hidden rounded-full p-2 transition-colors md:block"
+          >
+            <span class="material-symbols-outlined">search</span>
+          </button>
+          <button
+            class="bg-primary text-on-primary font-label-md hover:bg-secondary rounded-lg px-4 py-2 transition-all hover:shadow-md"
+          >
+            Sign In
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- Main Content -->
+    <main class="flex-grow">
+      <!-- Hero Section -->
+      <section class="hero-bg text-on-primary relative flex min-h-[819px] w-full items-center">
+        <div class="hero-glow"></div>
+        <div
+          class="gap-gutter relative z-10 mx-auto grid w-full max-w-[1200px] grid-cols-1 items-center px-8 md:grid-cols-12"
+        >
+          <div class="gap-sm flex flex-col md:col-span-6 lg:col-span-5">
+            <span class="font-label-md text-tertiary-fixed-dim tracking-wider uppercase"
+              >The Art of Observation</span
+            >
+            <h1 class="font-display-lg text-display-lg mb-md text-white">
+              Meticulous records for the modern naturalist.
+            </h1>
+            <p class="font-body-lg text-body-lg text-primary-fixed mb-lg max-w-lg opacity-90">
+              Document the delicate lifecycle of stag beetles, rhinoceros beetles, and flower
+              chafers with precise tracking, breeding logs, and environmental data.
+            </p>
+            <div class="gap-sm flex">
+              <button
+                class="bg-tertiary text-on-tertiary font-label-md hover:bg-tertiary-container rounded-lg px-6 py-3 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+              >
+                Start Tracking
+              </button>
+              <button
+                class="bg-surface/10 font-label-md hover:bg-surface/20 rounded-lg border border-white/20 px-6 py-3 text-white backdrop-blur-sm transition-all"
+              >
+                Explore Database
+              </button>
+            </div>
+          </div>
+          <div class="mt-xl relative md:col-span-6 md:mt-0 lg:col-span-6 lg:col-start-7">
+            <div
+              class="relative aspect-[4/5] w-full overflow-hidden rounded-xl border border-white/10 shadow-2xl md:aspect-square"
+            >
+              <img
+                class="h-full w-full object-cover"
+                data-alt="A macro photograph of a large male Lucanus cervus stag beetle resting on a piece of decaying oak wood. The lighting is dramatic and moody, highlighting the glossy, deep reddish-brown chitin of its mandibles and the intricate details of its legs against a soft, dark green blurred forest background. The overall aesthetic is scientific yet artistic, emphasizing the texture of nature."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwl_3NFS3IaUOuuogbLLgkmgeuxBgfVsyfkonS0Pgihqmgj45ofqCc0OTJQbdI2cFAla38zozO8fWcubcXMyy8TC7F1kaHNT9HbRPBKlxnurDC1uG5n_H-2B9OMj5to-JhBs-OJeTgFC31V1f4j-JflXWCrfKF7YJggAWdGwAm4Hyb1Ij4AJAFgb75-M-lXGtdPK8_qF8lubCFoTg2k2K8oCdKX2yiBm-qXM6RkbB7ywv05FeZmL2IfQ"
+              />
+              <!-- Floating Glass Card -->
+              <div
+                class="glass-panel text-on-surface absolute right-6 bottom-6 left-6 flex items-center justify-between rounded-lg p-4"
+              >
+                <div>
+                  <p class="font-label-md text-label-md text-primary mb-1">Lucanus cervus</p>
+                  <p class="font-body-md text-on-surface-variant text-sm">L3 Larval Stage Logged</p>
+                </div>
+                <span class="material-symbols-outlined text-tertiary">trending_up</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Featured Articles Bento Grid -->
+      <section class="py-xl mx-auto max-w-[1200px] px-8">
+        <div class="mb-lg flex items-end justify-between">
+          <div>
+            <h2 class="font-headline-lg text-headline-lg text-primary mb-2">Featured Articles</h2>
+            <p class="font-body-md text-on-surface-variant">
+              In-depth guides and breeding methodology.
+            </p>
+          </div>
+          <a
+            class="font-label-md text-tertiary gap-xs hidden items-center hover:underline md:flex"
+            href="#"
+          >
+            View all <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </a>
+        </div>
+        <div class="gap-gutter grid auto-rows-[minmax(200px,auto)] grid-cols-1 md:grid-cols-12">
+          <!-- Large Feature (spans 8 cols) -->
+          <article
+            class="group bg-surface-container-lowest naturalist-shadow border-outline-variant/30 row-span-2 flex cursor-pointer flex-col overflow-hidden rounded-xl border transition-transform duration-300 hover:-translate-y-1 md:col-span-8"
+          >
+            <div class="relative h-64 w-full overflow-hidden md:h-full">
+              <img
+                class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                data-alt="A well-lit, organized terrarium setup for breeding beetles. The enclosure features layers of specially prepared flake soil, decaying white-rot wood pieces, and a small feeding station with beetle jelly. The lighting is soft and natural, emphasizing the meticulous, scientific approach to the hobby. The modern naturalist aesthetic is clear through the clean presentation and focus on organic materials."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiA6V83gs75aQ85vsL5BN9EiTTbPvL6P0FUXBoOS4L2FN2yYVBQbn3iiO-e70FRsLgEnexRaui5r3t7Yi2NaJ-eYrN1KQ35i0-TejsJDvNztwwwXGzfsAJF8Mb8cUkNTohnmJBO14hWgSI7hoHRV2-7ni_WiZLAMAwWWPH15Oq7bulbQV9QXbGq8_iz22L5ih8ID3XBXZ3My1IbaB78_QFpHP255CMd8o1Gr6NU1Oyep-o6VaJZhMVYw"
+              />
+              <div
+                class="bg-tertiary/10 text-tertiary font-label-md border-tertiary/20 absolute top-4 left-4 rounded-full border px-3 py-1 text-xs backdrop-blur-md"
+              >
+                Breeding Guide
+              </div>
+            </div>
+            <div
+              class="p-6 md:absolute md:right-0 md:bottom-0 md:left-0 md:bg-gradient-to-t md:from-black/90 md:via-black/60 md:to-transparent md:p-8 md:text-white"
+            >
+              <h3
+                class="font-headline-md text-headline-md text-primary group-hover:text-tertiary md:group-hover:text-tertiary-fixed mb-2 transition-colors md:text-white"
+              >
+                Mastering Flake Soil Fermentation
+              </h3>
+              <p class="font-body-md text-on-surface-variant mb-4 line-clamp-2 md:text-white/80">
+                A comprehensive look at achieving the perfect carbon-to-nitrogen ratio for maximum
+                larval growth in Dynastinae species.
+              </p>
+              <div
+                class="gap-sm font-label-md text-on-surface-variant flex items-center text-sm md:text-white/60"
+              >
+                <span>Mar 12, 2024</span>
+                <span>•</span>
+                <span>8 min read</span>
+              </div>
+            </div>
+          </article>
+          <!-- Small Feature 1 -->
+          <article
+            class="group bg-surface-container-lowest naturalist-shadow border-outline-variant/30 flex cursor-pointer flex-col overflow-hidden rounded-xl border transition-transform duration-300 hover:-translate-y-1 md:col-span-4"
+          >
+            <div class="relative h-48 w-full overflow-hidden">
+              <img
+                class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                data-alt="A close up view of a rhinoceros beetle larva (grub) resting in a clear plastic container filled with dark, rich substrate. The focus is sharp on the distinct spiracles along its side and its orange-brown head capsule. The sterile, scientific environment highlights the careful observation practices of modern beetle rearers."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWqHV3r_Yp26DuglYc9XFRZSx9zoIQGpJ_epZWS4wfxbcw5-pb9p5EvIcxfuGNMpDpClrYTN0hSGpLf9315PBot7TpE0IFinWj_VQ-N0UQ8wIE7CfxebQ8ov4DXawOUYC7apeSwc03NdXbsWGzmnMjVF2BBthjoshaI3k5HDnVFiYnmB5bzEhfU5xVbgUbBaOH_mYSVueW5lFeE4LVa2zs-4Oh6-BdLbsmlCOCP2SSE0yZrcwiHPpiuw"
+              />
+            </div>
+            <div class="flex flex-grow flex-col justify-between p-5">
+              <div>
+                <span class="text-tertiary font-label-md mb-2 block text-xs">Species Profile</span>
+                <h3
+                  class="font-headline-md text-primary group-hover:text-tertiary mb-2 text-lg leading-tight transition-colors"
+                >
+                  Chalcosoma atlas: The Challege of Major Males
+                </h3>
+              </div>
+              <span class="font-label-md text-on-surface-variant mt-4 text-sm">Read article</span>
+            </div>
+          </article>
+          <!-- Small Feature 2 -->
+          <article
+            class="group bg-surface-container-lowest naturalist-shadow border-outline-variant/30 flex cursor-pointer flex-col overflow-hidden rounded-xl border transition-transform duration-300 hover:-translate-y-1 md:col-span-4"
+          >
+            <div class="bg-secondary/5 flex flex-grow flex-col justify-between p-6">
+              <div>
+                <div
+                  class="bg-secondary text-on-secondary mb-4 flex h-10 w-10 items-center justify-center rounded-full"
+                >
+                  <span class="material-symbols-outlined">thermostat</span>
+                </div>
+                <span class="text-secondary font-label-md mb-2 block text-xs">Equipment</span>
+                <h3
+                  class="font-headline-md text-primary group-hover:text-secondary mb-2 text-lg leading-tight transition-colors"
+                >
+                  Building a Climate-Controlled Rearing Chamber
+                </h3>
+                <p class="font-body-md text-on-surface-variant line-clamp-2 text-sm">
+                  Maintaining stable temperatures through the winter months.
+                </p>
+              </div>
+              <div class="mt-4 flex items-center justify-between">
+                <span class="font-label-md text-on-surface-variant text-sm">Mar 05, 2024</span>
+                <span
+                  class="material-symbols-outlined text-on-surface-variant group-hover:text-secondary transition-colors"
+                  >arrow_forward</span
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- Split Section: Short Notes & Database CTA -->
+      <section class="bg-surface-container-low py-xl border-outline-variant/20 border-t">
+        <div class="gap-xl mx-auto grid max-w-[1200px] grid-cols-1 px-8 md:grid-cols-12">
+          <!-- Short Notes Timeline -->
+          <div class="md:col-span-7">
+            <div class="mb-lg flex items-center justify-between">
+              <h2 class="font-headline-lg text-headline-lg text-primary">Recent Observations</h2>
+              <button
+                class="text-primary hover:bg-surface-variant rounded-full p-2 transition-colors"
+              >
+                <span class="material-symbols-outlined">add</span>
+              </button>
+            </div>
+            <div class="border-outline-variant/30 relative ml-4 space-y-8 border-l-2 pb-4">
+              <!-- Note 1 -->
+              <div class="relative pl-8">
+                <div
+                  class="bg-surface border-tertiary absolute top-1 -left-[9px] h-4 w-4 rounded-full border-2"
+                ></div>
+                <div
+                  class="bg-surface-container-lowest naturalist-shadow border-outline-variant/20 rounded-lg border p-5"
+                >
+                  <div class="mb-2 flex items-start justify-between">
+                    <span class="font-label-md text-primary">Dorcus hopei binodulosus #04</span>
+                    <span class="font-body-md text-on-surface-variant text-xs"
+                      >Today, 09:41 AM</span
+                    >
+                  </div>
+                  <p class="font-body-md text-on-surface">
+                    Substrate change completed. Larva currently at 24.5g. Added roughly 30% decaying
+                    kinshi block to the new mix. Activity seems normal, no signs of pre-pupal
+                    wander.
+                  </p>
+                  <div class="mt-3 flex gap-2">
+                    <span
+                      class="bg-secondary/10 text-secondary font-label-md rounded px-2 py-1 text-xs"
+                      >Weight Log</span
+                    >
+                    <span
+                      class="bg-surface-variant text-on-surface-variant font-label-md rounded px-2 py-1 text-xs"
+                      >Maintenance</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Note 2 -->
+              <div class="relative pl-8">
+                <div
+                  class="bg-surface border-secondary absolute top-1 -left-[9px] h-4 w-4 rounded-full border-2"
+                ></div>
+                <div
+                  class="bg-surface-container-lowest naturalist-shadow border-outline-variant/20 rounded-lg border p-5"
+                >
+                  <div class="mb-2 flex items-start justify-between">
+                    <span class="font-label-md text-primary">Mecynorrhina torquata</span>
+                    <span class="font-body-md text-on-surface-variant text-xs"
+                      >Yesterday, 14:20 PM</span
+                    >
+                  </div>
+                  <p class="font-body-md text-on-surface">
+                    Observed adult female constructing a pupal cell at the bottom of the breeding
+                    box. Temperature maintained at 22°C. Will avoid disturbing the substrate for the
+                    next 4 weeks.
+                  </p>
+                  <div class="mt-3 flex gap-2">
+                    <span class="bg-primary/10 text-primary font-label-md rounded px-2 py-1 text-xs"
+                      >Observation</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Note 3 -->
+              <div class="relative pl-8">
+                <div
+                  class="bg-surface border-outline absolute top-1 -left-[9px] h-4 w-4 rounded-full border-2"
+                ></div>
+                <div
+                  class="bg-surface-container-lowest naturalist-shadow border-outline-variant/20 rounded-lg border p-5 opacity-70 transition-opacity hover:opacity-100"
+                >
+                  <div class="mb-2 flex items-start justify-between">
+                    <span class="font-label-md text-primary">General Environment</span>
+                    <span class="font-body-md text-on-surface-variant text-xs">Mar 10, 2024</span>
+                  </div>
+                  <p class="font-body-md text-on-surface">
+                    Calibrated main room hygrometer. Humidity holding steady at 65% despite dry
+                    external weather.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="font-label-md text-tertiary mt-4 ml-12 hover:underline">
+              Load more notes
+            </button>
+          </div>
+          <!-- Species Database CTA -->
+          <div class="md:col-span-5">
+            <div
+              class="bg-primary text-on-primary naturalist-shadow relative flex h-full flex-col overflow-hidden rounded-xl p-8"
+            >
+              <!-- Abstract texture overlay -->
+              <div
+                class="absolute inset-0 opacity-10"
+                style="
+                  background-image: repeating-radial-gradient(
+                    circle at 0 0,
+                    transparent 0,
+                    #ffffff 1px,
+                    transparent 1px,
+                    transparent 20px
+                  );
+                "
+              ></div>
+              <div class="relative z-10">
+                <div
+                  class="bg-on-primary/10 border-on-primary/20 mb-6 flex h-12 w-12 items-center justify-center rounded-lg border"
+                >
+                  <span
+                    class="material-symbols-outlined text-tertiary-fixed-dim"
+                    style="font-variation-settings: 'FILL' 1"
+                    >table_chart</span
+                  >
+                </div>
+                <h2 class="font-headline-lg text-headline-lg text-on-primary mb-4">
+                  Species Records
+                </h2>
+                <p class="font-body-md text-primary-fixed mb-8 opacity-90">
+                  Access your complete database of past and present rearing lines. Filter by
+                  species, generation (F1, CBF1), or current developmental stage.
+                </p>
+                <div class="mt-auto space-y-3">
+                  <div
+                    class="bg-on-primary/5 border-on-primary/10 hover:bg-on-primary/10 flex cursor-pointer items-center justify-between rounded border p-3 transition-colors"
+                  >
+                    <div class="flex items-center gap-3">
+                      <span class="bg-tertiary-fixed-dim h-2 w-2 rounded-full"></span>
+                      <span class="font-label-md">Active Larvae</span>
+                    </div>
+                    <span class="font-body-md font-mono">142</span>
+                  </div>
+                  <div
+                    class="bg-on-primary/5 border-on-primary/10 hover:bg-on-primary/10 flex cursor-pointer items-center justify-between rounded border p-3 transition-colors"
+                  >
+                    <div class="flex items-center gap-3">
+                      <span class="bg-secondary-fixed-dim h-2 w-2 rounded-full"></span>
+                      <span class="font-label-md">Adult Specimens</span>
+                    </div>
+                    <span class="font-body-md font-mono">28</span>
+                  </div>
+                  <div
+                    class="bg-on-primary/5 border-on-primary/10 hover:bg-on-primary/10 flex cursor-pointer items-center justify-between rounded border p-3 transition-colors"
+                  >
+                    <div class="flex items-center gap-3">
+                      <span class="bg-outline h-2 w-2 rounded-full"></span>
+                      <span class="font-label-md">Archived Lines</span>
+                    </div>
+                    <span class="font-body-md font-mono">15</span>
+                  </div>
+                </div>
+                <button
+                  class="bg-tertiary text-on-tertiary font-label-md hover:bg-tertiary-container mt-8 flex w-full items-center justify-center gap-2 rounded-lg py-3 transition-all duration-300 hover:shadow-lg"
+                >
+                  Open Database
+                  <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer
+      class="bg-primary-container dark:bg-on-primary-fixed-variant text-on-primary-container dark:text-primary-fixed font-body-md text-body-md relative bottom-0 w-full"
+    >
+      <div
+        class="gap-md py-xl border-primary-container dark:border-on-primary-fixed-variant mx-auto flex max-w-[1200px] flex-col items-start justify-between border-t px-8 md:flex-row"
+      >
+        <div class="max-w-xs">
+          <div
+            class="font-display-lg text-headline-md text-on-primary-container dark:text-primary-fixed mb-4"
+          >
+            Coleoptera Diary
+          </div>
+          <p class="mb-6 text-sm opacity-80">
+            © 2024 Coleoptera Diary. Meticulous Observation for the Modern Naturalist.
+          </p>
+        </div>
+        <div class="gap-lg md:gap-xl flex flex-col md:flex-row">
+          <div class="gap-sm flex flex-col">
+            <a
+              class="text-on-primary-container/80 hover:text-on-primary-container transition-opacity hover:opacity-80"
+              href="#"
+              >About Study</a
+            >
+            <a
+              class="text-on-primary-container/80 hover:text-on-primary-container transition-opacity hover:opacity-80"
+              href="#"
+              >Research Methods</a
+            >
+            <a
+              class="text-on-primary-container/80 hover:text-on-primary-container transition-opacity hover:opacity-80"
+              href="#"
+              >Community Guidelines</a
+            >
+          </div>
+          <div class="gap-sm flex flex-col">
+            <a
+              class="text-on-primary-container/80 hover:text-on-primary-container transition-opacity hover:opacity-80"
+              href="#"
+              >Contact Expert</a
+            >
+            <a
+              class="text-on-primary-container/80 hover:text-on-primary-container transition-opacity hover:opacity-80"
+              href="#"
+              >Terms of Service</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
