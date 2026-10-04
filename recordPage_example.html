@@ -1,0 +1,1475 @@
+<!doctype html>
+<html class="scroll-smooth" lang="zh-TW" style="">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>世界鍬形蟲最大紀錄 (BEKUWA) 數據登錄庫 - Coleoptera Diary</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;family=JetBrains+Mono:wght@500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#204854',
+              'primary-dark': '#142F36',
+              'primary-light': '#316474',
+              'primary-container': '#204854',
+              accent: '#A8654A',
+              'accent-hover': '#8E513A',
+              'accent-light': '#F7EFEA',
+              background: '#FAF9F5',
+              surface: '#FAF9F5',
+              'surface-card': '#FFFFFF',
+              'surface-alt': '#F4F4F0',
+              'surface-header': '#F0EFE9',
+              'outline-variant': '#E3E2DC',
+              'on-surface': '#1A1C1D',
+              'on-surface-variant': '#6B7280',
+              'terracotta-badge': '#FBEBE6',
+              'terracotta-text': '#944527',
+            },
+            fontFamily: {
+              sans: ['Manrope', 'Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .hero-gradient {
+        background: linear-gradient(160deg, #142f36 0%, #204854 100%);
+      }
+      .naturalist-shadow {
+        box-shadow: 0px 4px 20px rgba(20, 47, 54, 0.06);
+      }
+      .table-row-hover:hover {
+        background-color: #faf8f4;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-background text-on-surface selection:bg-accent flex min-h-screen flex-col font-sans antialiased selection:text-white"
+  >
+    <!-- TopNavBar -->
+    <header class="bg-surface-card border-outline-variant sticky top-0 z-50 w-full border-b">
+      <div
+        class="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 transition-all duration-200 ease-in-out"
+      >
+        <div class="flex items-center gap-3">
+          <div
+            class="hero-gradient flex h-10 w-10 items-center justify-center rounded-lg text-white shadow-sm"
+          >
+            <span class="material-symbols-outlined text-2xl">pest_control</span>
+          </div>
+          <div>
+            <a
+              class="text-primary text-xl font-bold tracking-tight transition-opacity hover:opacity-90"
+              href="#"
+              >Coleoptera Diary</a
+            >
+            <div
+              class="text-accent mt-0.5 text-[11px] leading-none font-semibold tracking-widest uppercase"
+            >
+              Records &amp; Taxonomy
+            </div>
+          </div>
+        </div>
+        <nav class="hidden items-center gap-8 md:flex">
+          <a
+            class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors"
+            href="#"
+            >Home</a
+          >
+          <a
+            class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors"
+            href="#"
+            >Breeding Articles</a
+          >
+          <a
+            class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors"
+            href="#"
+            >Short Notes</a
+          >
+          <a
+            class="text-primary border-primary inline-flex items-center gap-1.5 border-b-2 pb-1 text-sm font-bold"
+            href="#"
+          >
+            <span class="">Species Records</span>
+            <span class="bg-accent h-1.5 w-1.5 rounded-full"></span>
+          </a>
+        </nav>
+        <div class="flex items-center gap-2">
+          <button
+            class="text-on-surface-variant hover:text-primary hover:bg-surface-alt flex h-9 w-9 items-center justify-center rounded-full transition-colors"
+            title="搜尋"
+          >
+            <span class="material-symbols-outlined text-[20px]">search</span>
+          </button>
+          <button
+            class="text-on-surface-variant hover:text-primary hover:bg-surface-alt flex h-9 w-9 items-center justify-center rounded-full transition-colors"
+            title="個人檔案"
+          >
+            <span class="material-symbols-outlined text-[20px]">account_circle</span>
+          </button>
+          <button
+            class="text-on-surface-variant hover:text-primary hover:bg-surface-alt flex h-9 w-9 items-center justify-center rounded-full transition-colors md:hidden"
+          >
+            <span class="material-symbols-outlined text-[22px]">menu</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- Main Content Area -->
+    <main class="w-full flex-grow">
+      <!-- Hero Section -->
+      <section
+        class="hero-gradient relative w-full overflow-hidden py-12 text-white shadow-sm md:py-16"
+      >
+        <div
+          class="pointer-events-none absolute inset-0 opacity-5"
+          style="
+            background-image: radial-gradient(#ffffff 1px, transparent 1px);
+            background-size: 24px 24px;
+          "
+        ></div>
+        <div class="relative z-10 mx-auto max-w-7xl px-6">
+          <div class="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
+            <div class="max-w-3xl">
+              <div
+                class="mb-4 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs font-semibold tracking-wide text-white/90 backdrop-blur-sm"
+              >
+                <span class="bg-accent h-2 w-2 animate-pulse rounded-full"></span>
+                BEKUWA 官方紀錄與權威飼育採集數據庫
+              </div>
+              <h1
+                class="mb-4 text-3xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-5xl"
+              >
+                世界鍬形蟲最大紀錄數據登錄庫
+              </h1>
+              <p class="max-w-2xl text-base leading-relaxed font-normal text-white/80 sm:text-lg">
+                完整收錄全球鍬形蟲科（Lucanidae）各屬之人工飼育極限（Breeding
+                Record）與野外採集標本紀錄（Wild
+                Record），以日本專業鍬形蟲雜誌《BEKUWA》登錄數據為依歸，按屬逐項嚴謹分類展示。
+              </p>
+            </div>
+            <!-- Quick Stats Bento on Dark Hero -->
+            <div class="flex flex-wrap gap-4 sm:flex-nowrap">
+              <div
+                class="min-w-[130px] rounded-xl border border-white/10 bg-white/10 p-4 backdrop-blur-md"
+              >
+                <div class="text-xs font-semibold tracking-wider text-white/70 uppercase">
+                  收錄分類群
+                </div>
+                <div class="mt-1 font-mono text-3xl font-extrabold text-white">1,400+</div>
+                <div class="text-accent-light/80 mt-0.5 text-[11px]">跨越全球核心產地</div>
+              </div>
+              <div
+                class="min-w-[130px] rounded-xl border border-white/10 bg-white/10 p-4 backdrop-blur-md"
+              >
+                <div class="text-xs font-semibold tracking-wider text-white/70 uppercase">
+                  紀錄極限值
+                </div>
+                <div class="mt-1 font-mono text-3xl font-extrabold text-white">
+                  122.0<span class="ml-0.5 font-sans text-sm font-normal">mm</span>
+                </div>
+                <div class="text-accent-light/80 mt-0.5 text-[11px]">長頸鹿鋸飼育最高點</div>
+              </div>
+              <div
+                class="min-w-[130px] rounded-xl border border-white/10 bg-white/10 p-4 backdrop-blur-md"
+              >
+                <div class="text-xs font-semibold tracking-wider text-white/70 uppercase">
+                  最新更新年份
+                </div>
+                <div class="mt-1 font-mono text-3xl font-extrabold text-white">2025</div>
+                <div class="text-accent-light/80 mt-0.5 text-[11px]">持續連線追蹤更新</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Navigation Filters & Search Sticky Bar -->
+      <section class="border-outline-variant bg-surface-card sticky top-20 z-40 border-b shadow-xs">
+        <div
+          class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-3.5 lg:flex-row"
+        >
+          <!-- Left: Curated Quick Filter Pills + More Genera Dropdown -->
+          <div class="no-scrollbar flex w-full items-center gap-2 overflow-x-auto py-0.5 lg:w-auto">
+            <!-- All Categories (Active) -->
+            <a
+              class="bg-accent flex shrink-0 items-center gap-1.5 rounded-full px-3.5 py-1.5 text-xs font-bold text-white shadow-xs transition-colors"
+              href="#all"
+            >
+              <span class="">全部屬別</span>
+              <span
+                class="py-0.2 rounded-full bg-white/20 px-1.5 font-mono text-[10px] leading-tight"
+                >400+</span
+              >
+            </a>
+            <!-- Quick Curated Genus Tags -->
+            <a
+              class="bg-surface-alt hover:bg-outline-variant text-primary shrink-0 rounded-full px-3 py-1.5 text-xs font-semibold transition-colors"
+              href="#genus-cyclommatus"
+            >
+              <span class="">細身赤屬</span>
+              <span class="ml-0.5 text-[11px] font-normal italic opacity-75">Cyclommatus</span>
+            </a>
+            <a
+              class="bg-surface-alt hover:bg-outline-variant text-primary shrink-0 rounded-full px-3 py-1.5 text-xs font-semibold transition-colors"
+              href="#genus-prosopocoilus"
+            >
+              <span class="">鋸鍬屬</span>
+              <span class="ml-0.5 text-[11px] font-normal italic opacity-75">Prosopocoilus</span>
+            </a>
+            <a
+              class="bg-surface-alt hover:bg-outline-variant text-primary shrink-0 rounded-full px-3 py-1.5 text-xs font-semibold transition-colors"
+              href="#genus-dorcus"
+            >
+              <span class="">大鍬&amp;扁鍬群</span>
+              <span class="ml-0.5 text-[11px] font-normal italic opacity-75">Dorcus</span>
+            </a>
+            <a
+              class="bg-surface-alt hover:bg-outline-variant text-primary shrink-0 rounded-full px-3 py-1.5 text-xs font-semibold transition-colors"
+              href="#genus-lucanus"
+            >
+              <span class="">深山屬</span>
+              <span class="ml-0.5 text-[11px] font-normal italic opacity-75">Lucanus</span>
+            </a>
+            <a
+              class="bg-surface-alt hover:bg-outline-variant text-primary shrink-0 rounded-full px-3 py-1.5 text-xs font-semibold transition-colors"
+              href="#genus-allotopus"
+            >
+              <span class="">黃金鬼屬</span>
+              <span class="ml-0.5 text-[11px] font-normal italic opacity-75">Allotopus</span>
+            </a>
+
+            <!-- More Genera Dropdown (Option B Popover) -->
+            <div class="group relative shrink-0" id="more-genera-container">
+              <button
+                class="border-accent/40 bg-accent/10 hover:bg-accent/20 text-accent hover:border-accent flex shrink-0 cursor-pointer items-center gap-1.5 rounded-full border-2 px-3.5 py-1.5 text-xs font-semibold shadow-sm transition-all"
+                id="more-genera-btn"
+                onclick="document.getElementById('more-genera-menu')?.classList.toggle('hidden')"
+                type="button"
+              >
+                <span class="">更多屬別</span
+                ><span
+                  class="py-0.2 bg-accent rounded-full px-1.5 font-mono text-[10px] leading-tight font-bold text-white"
+                  >9+</span
+                ><span
+                  class="material-symbols-outlined text-accent text-[16px] transition-transform"
+                  >arrow_drop_down</span
+                >
+              </button>
+              <div
+                class="bg-surface-card border-outline-variant naturalist-shadow absolute left-0 z-50 mt-2 hidden w-80 rounded-xl border p-4 transition-all group-hover:block sm:w-[480px]"
+                id="more-genera-menu"
+              >
+                <div
+                  class="border-outline-variant text-primary mb-2.5 flex items-center justify-between border-b pb-2.5 text-xs font-bold"
+                >
+                  <div class="flex items-center gap-1.5">
+                    <span class="material-symbols-outlined text-accent text-[16px]">category</span
+                    ><span class="">其餘登錄屬別 (9 大分類群)</span>
+                  </div>
+                  <span class="text-on-surface-variant text-[11px] font-normal"
+                    >BEKUWA 依學術索引收錄</span
+                  >
+                </div>
+                <div class="grid grid-cols-1 gap-2 text-xs sm:grid-cols-2">
+                  <a
+                    class="hover:bg-surface-alt hover:border-outline-variant group/item flex items-center justify-between rounded-lg border border-transparent p-2 transition-colors"
+                    href="#all"
+                    ><div>
+                      <div
+                        class="text-primary group-hover/item:text-accent font-bold transition-colors"
+                      >
+                        豔鍬屬
+                      </div>
+                      <div class="text-on-surface-variant text-[11px] italic">Odontolabis</div>
+                    </div>
+                    <span
+                      class="bg-surface-header text-on-surface-variant rounded px-1.5 py-0.5 font-mono text-[11px] font-medium"
+                      >35 種</span
+                    ></a
+                  ><a
+                    class="hover:bg-surface-alt hover:border-outline-variant group/item flex items-center justify-between rounded-lg border border-transparent p-2 transition-colors"
+                    href="#all"
+                    ><div>
+                      <div
+                        class="text-primary group-hover/item:text-accent font-bold transition-colors"
+                      >
+                        叉角鍬形蟲屬
+                      </div>
+                      <div class="text-on-surface-variant text-[11px] italic">Hexarthrius</div>
+                    </div>
+                    <span
+                      class="bg-surface-header text-on-surface-variant rounded px-1.5 py-0.5 font-mono text-[11px] font-medium"
+                      >18 種</span
+                    ></a
+                  ><a
+                    class="hover:bg-surface-alt hover:border-outline-variant group/item flex items-center justify-between rounded-lg border border-transparent p-2 transition-colors"
+                    href="#all"
+                    ><div>
+                      <div
+                        class="text-primary group-hover/item:text-accent font-bold transition-colors"
+                      >
+                        鹿角/金剛鹿角屬
+                      </div>
+                      <div class="text-on-surface-variant text-[11px] italic">
+                        Rhaetulus / Rhaetus
+                      </div>
+                    </div>
+                    <span
+                      class="bg-surface-header text-on-surface-variant rounded px-1.5 py-0.5 font-mono text-[11px] font-medium"
+                      >17 種</span
+                    ></a
+                  ><a
+                    class="hover:bg-surface-alt hover:border-outline-variant group/item flex items-center justify-between rounded-lg border border-transparent p-2 transition-colors"
+                    href="#all"
+                    ><div>
+                      <div
+                        class="text-primary group-hover/item:text-accent font-bold transition-colors"
+                      >
+                        圓翅鍬屬
+                      </div>
+                      <div class="text-on-surface-variant text-[11px] italic">Neolucanus</div>
+                    </div>
+                    <span
+                      class="bg-surface-header text-on-surface-variant rounded px-1.5 py-0.5 font-mono text-[11px] font-medium"
+                      >16 種</span
+                    ></a
+                  ><a
+                    class="hover:bg-surface-alt hover:border-outline-variant group/item flex items-center justify-between rounded-lg border border-transparent p-2 transition-colors"
+                    href="#all"
+                    ><div>
+                      <div
+                        class="text-primary group-hover/item:text-accent font-bold transition-colors"
+                      >
+                        肥角屬
+                      </div>
+                      <div class="text-on-surface-variant text-[11px] italic">Aegus</div>
+                    </div>
+                    <span
+                      class="bg-surface-header text-on-surface-variant rounded px-1.5 py-0.5 font-mono text-[11px] font-medium"
+                      >32 種</span
+                    ></a
+                  ><a
+                    class="hover:bg-surface-alt hover:border-outline-variant group/item flex items-center justify-between rounded-lg border border-transparent p-2 transition-colors"
+                    href="#all"
+                    ><div>
+                      <div
+                        class="text-primary group-hover/item:text-accent font-bold transition-colors"
+                      >
+                        彩虹/金鍬類群
+                      </div>
+                      <div class="text-on-surface-variant text-[11px] italic">
+                        Phalacrognathus / Lamprima
+                      </div>
+                    </div>
+                    <span
+                      class="bg-surface-header text-on-surface-variant rounded px-1.5 py-0.5 font-mono text-[11px] font-medium"
+                      >10 種</span
+                    ></a
+                  ><a
+                    class="hover:bg-surface-alt hover:border-outline-variant group/item flex items-center justify-between rounded-lg border border-transparent p-2 transition-colors"
+                    href="#all"
+                    ><div>
+                      <div
+                        class="text-primary group-hover/item:text-accent font-bold transition-colors"
+                      >
+                        鉗鍬屬
+                      </div>
+                      <div class="text-on-surface-variant text-[11px] italic">Kirchnerius</div>
+                    </div>
+                    <span
+                      class="bg-surface-header text-on-surface-variant rounded px-1.5 py-0.5 font-mono text-[11px] font-medium"
+                      >8 種</span
+                    ></a
+                  ><a
+                    class="hover:bg-surface-alt hover:border-outline-variant group/item flex items-center justify-between rounded-lg border border-transparent p-2 transition-colors"
+                    href="#all"
+                    ><div>
+                      <div
+                        class="text-primary group-hover/item:text-accent font-bold transition-colors"
+                      >
+                        前鍬屬
+                      </div>
+                      <div class="text-on-surface-variant text-[11px] italic">Epidorcus</div>
+                    </div>
+                    <span
+                      class="bg-surface-header text-on-surface-variant rounded px-1.5 py-0.5 font-mono text-[11px] font-medium"
+                      >6 種</span
+                    ></a
+                  ><a
+                    class="hover:bg-surface-alt hover:border-outline-variant group/item flex items-center justify-between rounded-lg border border-transparent p-2 transition-colors sm:col-span-2"
+                    href="#all"
+                    ><div>
+                      <div
+                        class="text-primary group-hover/item:text-accent font-bold transition-colors"
+                      >
+                        大黑豔與其他類群
+                      </div>
+                      <div class="text-on-surface-variant text-[11px] italic">
+                        Mesotopus &amp; Others (Colophon, Pycnosiphorus 等)
+                      </div>
+                    </div>
+                    <span
+                      class="bg-surface-header text-on-surface-variant rounded px-1.5 py-0.5 font-mono text-[11px] font-medium"
+                      >25 種</span
+                    ></a
+                  >
+                </div>
+                <div
+                  class="border-outline-variant mt-3 flex items-center justify-between border-t pt-2.5 text-[11px]"
+                >
+                  <a
+                    class="text-accent flex items-center gap-1 font-medium hover:underline"
+                    href="#naming-rules"
+                    ><span class="material-symbols-outlined text-[13px]">info</span>
+                    查看分類與命名準則</a
+                  ><span class="text-on-surface-variant/70">共收錄 15+ 屬群登錄資料</span>
+                </div>
+              </div>
+            </div>
+            <a
+              class="border-outline-variant text-on-surface-variant hover:text-primary flex shrink-0 items-center gap-1 rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors"
+              href="#naming-rules"
+            >
+              <span class="material-symbols-outlined text-[15px]">info</span> 命名規範
+            </a>
+          </div>
+          <!-- Right: Search & Expand Controls -->
+          <div class="flex w-full shrink-0 items-center gap-3 lg:w-auto">
+            <div class="relative w-full sm:w-72">
+              <span
+                class="material-symbols-outlined text-on-surface-variant absolute top-1/2 left-3.5 -translate-y-1/2 text-[18px]"
+                >search</span
+              >
+              <input
+                class="bg-surface-alt border-outline-variant text-on-surface focus:border-primary focus:ring-primary w-full rounded-full border py-1.5 pr-4 pl-10 text-xs font-medium transition-all placeholder:text-gray-400 focus:ring-1 focus:outline-none"
+                id="species-search"
+                placeholder="搜尋學名、中文俗名或代號..."
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Main Content Layout -->
+      <div class="mx-auto max-w-7xl space-y-10 px-6 py-10" id="all">
+        <!-- 1. 細身赤鍬形蟲屬 Cyclommatus -->
+        <section
+          class="bg-surface-card border-outline-variant naturalist-shadow overflow-hidden rounded-2xl border transition-all duration-300"
+          id="genus-cyclommatus"
+        >
+          <!-- Genus Header Card -->
+          <div
+            class="bg-surface-header border-outline-variant flex flex-wrap items-center justify-between gap-4 border-b p-6"
+          >
+            <div class="flex items-center gap-3.5">
+              <div
+                class="bg-primary/10 text-primary flex h-9 w-9 items-center justify-center rounded-lg text-sm font-bold"
+              >
+                01
+              </div>
+              <div>
+                <div class="flex items-center gap-3">
+                  <h2 class="text-primary text-xl font-bold tracking-tight">細身赤鍬形蟲屬</h2>
+                  <span class="text-primary/80 text-lg font-semibold italic">Cyclommatus</span>
+                  <span
+                    class="bg-primary/10 text-primary rounded-full px-2.5 py-0.5 text-xs font-bold"
+                    >43 種收錄</span
+                  >
+                </div>
+                <p class="text-on-surface-variant mt-0.5 text-xs">
+                  顎部形態修長、大顎具豐富齒型多樣性，以南洋與東南亞島嶼產為主。
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-accent flex items-center gap-1 text-xs font-medium">
+                <span class="bg-accent h-1.5 w-1.5 rounded-full"></span> 最高飼育: 101.7 mm
+                (美他利佛)
+              </span>
+            </div>
+          </div>
+          <!-- Data Table -->
+          <div class="overflow-x-auto">
+            <table class="w-full border-collapse text-left text-sm">
+              <thead>
+                <tr
+                  class="bg-surface-alt/70 border-outline-variant text-on-surface-variant border-b text-[12px] font-bold tracking-wider uppercase"
+                >
+                  <th class="px-5 py-3 whitespace-nowrap">中文俗名 (Common Name)</th>
+                  <th class="px-5 py-3 whitespace-nowrap">學名 (Scientific Name)</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">飼育紀錄 (mm)</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">野生紀錄 (mm)</th>
+                  <th class="px-5 py-3 whitespace-nowrap">日文俗名 (Japanese)</th>
+                  <th class="px-4 py-3 text-center whitespace-nowrap">登錄年</th>
+                  <th class="px-4 py-3 text-center">狀態</th>
+                </tr>
+              </thead>
+              <tbody class="divide-outline-variant/60 divide-y font-medium">
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary flex items-center gap-2 px-5 py-3.5 font-bold">
+                    <span class="">艷細身赤鍬形蟲</span>
+                    <span
+                      class="rounded border border-amber-200 bg-amber-50 px-1.5 py-0.5 text-[10px] font-semibold text-amber-700"
+                      >特有種</span
+                    >
+                  </td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Cyclommatus asahinai
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    47.2
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">48.0</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">アサヒナホソアカ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2025
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-emerald-50 px-2 py-0.5 text-[11px] font-semibold text-emerald-700"
+                      >新登錄</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">帝王細身赤鍬形蟲</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Cyclommatus imperator
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    83.2
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">94.0</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">インペラトールホソアカ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2019
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-gray-100 px-2 py-0.5 text-[11px] font-semibold text-gray-600"
+                      >已確認</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary flex items-center gap-2 px-5 py-3.5 font-bold">
+                    <span class="">紅鹿細身赤鍬形蟲</span>
+                    <span
+                      class="rounded border border-red-200 bg-red-50 px-1.5 py-0.5 text-[10px] font-semibold text-red-700"
+                      >大型種</span
+                    >
+                  </td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Cyclommatus elaphus
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    97.5
+                  </td>
+                  <td class="text-primary px-4 py-3.5 text-right font-mono text-base font-bold">
+                    109.0
+                  </td>
+                  <td class="text-on-surface-variant px-5 py-3.5">エラフスホソアカ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2013
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-gray-100 px-2 py-0.5 text-[11px] font-semibold text-gray-600"
+                      >野外超越</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">長頸鹿細身赤鍬形蟲</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Cyclommatus giraffa
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    71.8
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">78.5</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">ギラファホソアカ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2023
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-gray-100 px-2 py-0.5 text-[11px] font-semibold text-gray-600"
+                      >已確認</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover bg-accent-light/40 transition-colors">
+                  <td class="text-primary flex items-center gap-2 px-5 py-3.5 font-bold">
+                    <span class="text-primary font-extrabold">美他利佛細身赤 (佩倫島)</span>
+                    <span class="bg-accent rounded px-1.5 py-0.5 text-[10px] font-bold text-white"
+                      >飼育超野外</span
+                    >
+                  </td>
+                  <td class="text-primary/80 px-5 py-3.5 font-normal italic">
+                    Cyclommatus metallifer finae
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-lg font-extrabold">
+                    101.7
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">100.0</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">
+                    メタリフェルホソアカ（ペレン）
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-center font-mono text-xs font-bold">
+                    2025
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="bg-accent inline-flex items-center rounded px-2 py-0.5 text-[11px] font-bold text-white"
+                      >突破100mm</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">周氏細身赤鍬形蟲</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Cyclommatus chewi
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    82.0
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">87.0</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">チュウホソアカ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2022
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-gray-100 px-2 py-0.5 text-[11px] font-semibold text-gray-600"
+                      >已確認</span
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- Genus Footer Expand -->
+        </section>
+        <!-- 2. 鋸鍬形蟲屬 Prosopocoilus -->
+        <section
+          class="bg-surface-card border-outline-variant naturalist-shadow overflow-hidden rounded-2xl border transition-all duration-300"
+          id="genus-prosopocoilus"
+        >
+          <div
+            class="bg-surface-header border-outline-variant flex flex-wrap items-center justify-between gap-4 border-b p-6"
+          >
+            <div class="flex items-center gap-3.5">
+              <div
+                class="bg-primary/10 text-primary flex h-9 w-9 items-center justify-center rounded-lg text-sm font-bold"
+              >
+                02
+              </div>
+              <div>
+                <div class="flex items-center gap-3">
+                  <h2 class="text-primary text-xl font-bold tracking-tight">鋸鍬形蟲屬</h2>
+                  <span class="text-primary/80 text-lg font-semibold italic">Prosopocoilus</span>
+                  <span
+                    class="bg-primary/10 text-primary rounded-full px-2.5 py-0.5 text-xs font-bold"
+                    >112 種收錄</span
+                  >
+                </div>
+                <p class="text-on-surface-variant mt-0.5 text-xs">
+                  物種分佈廣闊、體長跨度極大，包含世界最長鍬形蟲長頸鹿鋸在內之指標大屬。
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-accent flex items-center gap-1 text-xs font-medium">
+                <span class="bg-accent h-1.5 w-1.5 rounded-full"></span> 最高飼育: 122.0 mm
+                (長頸鹿鋸)
+              </span>
+            </div>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="w-full border-collapse text-left text-sm">
+              <thead>
+                <tr
+                  class="bg-surface-alt/70 border-outline-variant text-on-surface-variant border-b text-[12px] font-bold tracking-wider uppercase"
+                >
+                  <th class="px-5 py-3 whitespace-nowrap">中文俗名 (Common Name)</th>
+                  <th class="px-5 py-3 whitespace-nowrap">學名 (Scientific Name)</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">飼育紀錄 (mm)</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">野生紀錄 (mm)</th>
+                  <th class="px-5 py-3 whitespace-nowrap">日文俗名 (Japanese)</th>
+                  <th class="px-4 py-3 text-center whitespace-nowrap">登錄年</th>
+                  <th class="px-4 py-3 text-center">狀態</th>
+                </tr>
+              </thead>
+              <tbody class="divide-outline-variant/60 divide-y font-medium">
+                <tr class="table-row-hover bg-accent-light/40 transition-colors">
+                  <td class="text-primary flex items-center gap-2 px-5 py-3.5 font-bold">
+                    <span class="text-primary font-extrabold">長頸鹿鋸鍬形蟲 (PGK)</span>
+                    <span class="bg-accent rounded px-1.5 py-0.5 text-[10px] font-bold text-white"
+                      >世界體長之最</span
+                    >
+                  </td>
+                  <td class="text-primary/80 px-5 py-3.5 font-normal italic">
+                    Prosopocoilus giraffa keisukei
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-lg font-extrabold">
+                    122.0
+                  </td>
+                  <td class="text-primary px-4 py-3.5 text-right font-mono text-base font-bold">
+                    121.0
+                  </td>
+                  <td class="text-on-surface-variant px-5 py-3.5">ギラファノコギリ（ケイスケ）</td>
+                  <td class="text-accent px-4 py-3.5 text-center font-mono text-xs font-bold">
+                    2022
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="bg-accent inline-flex items-center rounded px-2 py-0.5 text-[11px] font-bold text-white"
+                      >世界殿堂</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">孔夫子鋸鍬形蟲</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Prosopocoilus confucius
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    106.9
+                  </td>
+                  <td class="text-primary px-4 py-3.5 text-right font-mono text-base font-bold">
+                    113.0
+                  </td>
+                  <td class="text-on-surface-variant px-5 py-3.5">コンフキウスノコギリ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2005
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-gray-100 px-2 py-0.5 text-[11px] font-semibold text-gray-600"
+                      >已確認</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">法布利斯鋸 (高桑亞種)</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Prosopocoilus fabricei takakuwai
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    88.8
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">86.0</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">ファブリスノコギリ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2013
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-emerald-50 px-2 py-0.5 text-[11px] font-semibold text-emerald-700"
+                      >飼育超越</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">奄美鋸鍬形蟲</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Prosopocoilus dissimilis dissimilis
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    82.1
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">85.0</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">アマミノコギリ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2016
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-gray-100 px-2 py-0.5 text-[11px] font-semibold text-gray-600"
+                      >已確認</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">兩點赤鋸 (水沼亞種)</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Prosopocoilus astacoides mizunumai
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    82.8
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">90.0</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">アスタコイデスノコギリ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2023
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-emerald-50 px-2 py-0.5 text-[11px] font-semibold text-emerald-700"
+                      >更新紀錄</span
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <!-- 3. 大鍬屬 & 扁鍬群 Dorcus -->
+        <section
+          class="bg-surface-card border-outline-variant naturalist-shadow overflow-hidden rounded-2xl border transition-all duration-300"
+          id="genus-dorcus"
+        >
+          <div
+            class="bg-surface-header border-outline-variant flex flex-wrap items-center justify-between gap-4 border-b p-6"
+          >
+            <div class="flex items-center gap-3.5">
+              <div
+                class="bg-primary/10 text-primary flex h-9 w-9 items-center justify-center rounded-lg text-sm font-bold"
+              >
+                03
+              </div>
+              <div>
+                <div class="flex items-center gap-3">
+                  <h2 class="text-primary text-xl font-bold tracking-tight">大鍬屬 &amp; 扁鍬群</h2>
+                  <span class="text-primary/80 text-lg font-semibold italic">Dorcus</span>
+                  <span
+                    class="bg-primary/10 text-primary rounded-full px-2.5 py-0.5 text-xs font-bold"
+                    >186 種收錄</span
+                  >
+                </div>
+                <p class="text-on-surface-variant mt-0.5 text-xs">
+                  飼育技術最成熟、人氣最經久不衰之代表屬，包含極大扁鍬與日本大鍬品系。
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-accent flex items-center gap-1 text-xs font-medium">
+                <span class="bg-accent h-1.5 w-1.5 rounded-full"></span> 最高飼育: 115.3 mm
+                (巴拉望巨扁)
+              </span>
+            </div>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="w-full border-collapse text-left text-sm">
+              <thead>
+                <tr
+                  class="bg-surface-alt/70 border-outline-variant text-on-surface-variant border-b text-[12px] font-bold tracking-wider uppercase"
+                >
+                  <th class="px-5 py-3 whitespace-nowrap">中文俗名 (Common Name)</th>
+                  <th class="px-5 py-3 whitespace-nowrap">學名 (Scientific Name)</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">飼育紀錄 (mm)</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">野生紀錄 (mm)</th>
+                  <th class="px-5 py-3 whitespace-nowrap">日文俗名 (Japanese)</th>
+                  <th class="px-4 py-3 text-center whitespace-nowrap">登錄年</th>
+                  <th class="px-4 py-3 text-center">狀態</th>
+                </tr>
+              </thead>
+              <tbody class="divide-outline-variant/60 divide-y font-medium">
+                <tr class="table-row-hover bg-accent-light/40 transition-colors">
+                  <td class="text-primary flex items-center gap-2 px-5 py-3.5 font-bold">
+                    <span class="text-primary font-extrabold">巴拉望巨扁鍬形蟲</span>
+                    <span class="bg-accent rounded px-1.5 py-0.5 text-[10px] font-bold text-white"
+                      >扁鍬之王</span
+                    >
+                  </td>
+                  <td class="text-primary/80 px-5 py-3.5 font-normal italic">
+                    Dorcus titanus palawanicus
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-lg font-extrabold">
+                    115.3
+                  </td>
+                  <td class="text-primary px-4 py-3.5 text-right font-mono text-base font-bold">
+                    111.3
+                  </td>
+                  <td class="text-on-surface-variant px-5 py-3.5">ヒラタクワガタ（パラワン）</td>
+                  <td class="text-accent px-4 py-3.5 text-center font-mono text-xs font-bold">
+                    2020
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="bg-accent inline-flex items-center rounded px-2 py-0.5 text-[11px] font-bold text-white"
+                      >頂級登錄</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary flex items-center gap-2 px-5 py-3.5 font-bold">
+                    <span class="">蘇門答臘巨扁鍬形蟲</span>
+                    <span
+                      class="rounded border border-blue-200 bg-blue-50 px-1.5 py-0.5 text-[10px] font-semibold text-blue-700"
+                      >極厚齒型</span
+                    >
+                  </td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Dorcus titanus yasuokai
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    110.3
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">102.5</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">ヒラタクワガタ（スマトラ）</td>
+                  <td class="text-accent px-4 py-3.5 text-center font-mono text-xs font-bold">
+                    2025
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-emerald-50 px-2 py-0.5 text-[11px] font-semibold text-emerald-700"
+                      >新登錄</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">安達祐實大鍬形蟲</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Dorcus antaeus antaeus
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    95.8
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">88.0</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">アンタエウスオオクワガタ</td>
+                  <td class="text-accent px-4 py-3.5 text-center font-mono text-xs font-bold">
+                    2025
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-emerald-50 px-2 py-0.5 text-[11px] font-semibold text-emerald-700"
+                      >新破紀錄</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">巨大大鍬形蟲 (森谷亞種)</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Dorcus grandis moriyai
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    96.5
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">91.5</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">グランディスオオクワガタ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2024
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-gray-100 px-2 py-0.5 text-[11px] font-semibold text-gray-600"
+                      >已確認</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">日本大鍬形蟲</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Dorcus hopei binodulosus
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    94.1
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">76.6</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">オオクワガタ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2024
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="bg-terracotta-badge text-terracotta-text inline-flex items-center rounded px-2 py-0.5 text-[11px] font-semibold"
+                      >人工極限</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary flex items-center gap-2 px-5 py-3.5 font-bold">
+                    <span class="">長角大鍬形蟲</span>
+                    <span
+                      class="rounded border border-emerald-200 bg-emerald-50 px-1.5 py-0.5 text-[10px] font-semibold text-emerald-700"
+                      >台灣特有</span
+                    >
+                  </td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Dorcus schenklingi
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    89.9
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">84.0</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">シェンクリングオオクワ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2013
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-gray-100 px-2 py-0.5 text-[11px] font-semibold text-gray-600"
+                      >已確認</span
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <!-- 4. 深山屬 Lucanus -->
+        <section
+          class="bg-surface-card border-outline-variant naturalist-shadow overflow-hidden rounded-2xl border transition-all duration-300"
+          id="genus-lucanus"
+        >
+          <div
+            class="bg-surface-header border-outline-variant flex flex-wrap items-center justify-between gap-4 border-b p-6"
+          >
+            <div class="flex items-center gap-3.5">
+              <div
+                class="bg-primary/10 text-primary flex h-9 w-9 items-center justify-center rounded-lg text-sm font-bold"
+              >
+                04
+              </div>
+              <div>
+                <div class="flex items-center gap-3">
+                  <h2 class="text-primary text-xl font-bold tracking-tight">深山屬</h2>
+                  <span class="text-primary/80 text-lg font-semibold italic">Lucanus</span>
+                  <span
+                    class="bg-primary/10 text-primary rounded-full px-2.5 py-0.5 text-xs font-bold"
+                    >78 種收錄</span
+                  >
+                </div>
+                <p class="text-on-surface-variant mt-0.5 text-xs">
+                  具備招牌耳突冠與絨毛特徵，幼蟲高敏感度溫控與菌絲/腐植土需求之高難度類群。
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-accent flex items-center gap-1 text-xs font-medium">
+                <span class="bg-accent h-1.5 w-1.5 rounded-full"></span> 最高飼育: 105.0 mm
+                (歐洲深山)
+              </span>
+            </div>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="w-full border-collapse text-left text-sm">
+              <thead>
+                <tr
+                  class="bg-surface-alt/70 border-outline-variant text-on-surface-variant border-b text-[12px] font-bold tracking-wider uppercase"
+                >
+                  <th class="px-5 py-3 whitespace-nowrap">中文俗名 (Common Name)</th>
+                  <th class="px-5 py-3 whitespace-nowrap">學名 (Scientific Name)</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">飼育紀錄 (mm)</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">野生紀錄 (mm)</th>
+                  <th class="px-5 py-3 whitespace-nowrap">日文俗名 (Japanese)</th>
+                  <th class="px-4 py-3 text-center whitespace-nowrap">登錄年</th>
+                  <th class="px-4 py-3 text-center">狀態</th>
+                </tr>
+              </thead>
+              <tbody class="divide-outline-variant/60 divide-y font-medium">
+                <tr class="table-row-hover bg-accent-light/40 transition-colors">
+                  <td class="text-primary flex items-center gap-2 px-5 py-3.5 font-bold">
+                    <span class="text-primary font-extrabold">歐洲深山鍬形蟲 (阿克貝斯)</span>
+                    <span class="bg-accent rounded px-1.5 py-0.5 text-[10px] font-bold text-white"
+                      >深山極致</span
+                    >
+                  </td>
+                  <td class="text-primary/80 px-5 py-3.5 font-normal italic">
+                    Lucanus cervus akbesianus
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-lg font-extrabold">
+                    105.0
+                  </td>
+                  <td class="text-primary px-4 py-3.5 text-right font-mono text-base font-bold">
+                    100.0
+                  </td>
+                  <td class="text-on-surface-variant px-5 py-3.5">
+                    ヨーロッパミヤマ（アクベシアヌス）
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-center font-mono text-xs font-bold">
+                    2022
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="bg-accent inline-flex items-center rounded px-2 py-0.5 text-[11px] font-bold text-white"
+                      >百公釐巨霸</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">高砂深山鍬形蟲</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Lucanus maculifemoratus taiwanus
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    89.8
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">87.0</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">タカサゴミヤマ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2024
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-emerald-50 px-2 py-0.5 text-[11px] font-semibold text-emerald-700"
+                      >飼育突破</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">台灣深山鍬形蟲</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Lucanus formosanus
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    83.0
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">85.0</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">タイワンミヤマ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2024
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-gray-100 px-2 py-0.5 text-[11px] font-semibold text-gray-600"
+                      >已確認</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">赫曼深山鍬形蟲</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Lucanus hermani
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    92.1
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">92.0</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">ヘルマンミヤマ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2010
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-gray-100 px-2 py-0.5 text-[11px] font-semibold text-gray-600"
+                      >已確認</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">康塔深山鍬形蟲</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Lucanus cantori
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    71.8
+                  </td>
+                  <td class="text-primary px-4 py-3.5 text-right font-mono text-base font-bold">
+                    90.0
+                  </td>
+                  <td class="text-on-surface-variant px-5 py-3.5">カントールミヤマ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2024
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-gray-100 px-2 py-0.5 text-[11px] font-semibold text-gray-600"
+                      >野外超越</span
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <!-- 5. 黃金鬼屬 Allotopus -->
+        <section
+          class="bg-surface-card border-outline-variant naturalist-shadow overflow-hidden rounded-2xl border transition-all duration-300"
+          id="genus-allotopus"
+        >
+          <div
+            class="bg-surface-header border-outline-variant flex flex-wrap items-center justify-between gap-4 border-b p-6"
+          >
+            <div class="flex items-center gap-3.5">
+              <div
+                class="bg-primary/10 text-primary flex h-9 w-9 items-center justify-center rounded-lg text-sm font-bold"
+              >
+                05
+              </div>
+              <div>
+                <div class="flex items-center gap-3">
+                  <h2 class="text-primary text-xl font-bold tracking-tight">黃金鬼屬</h2>
+                  <span class="text-primary/80 text-lg font-semibold italic">Allotopus</span>
+                  <span
+                    class="bg-primary/10 text-primary rounded-full px-2.5 py-0.5 text-xs font-bold"
+                    >5 亞種全收錄</span
+                  >
+                </div>
+                <p class="text-on-surface-variant mt-0.5 text-xs">
+                  具備金色金屬色澤之甲蟲貴族，以雲芝菌瓶飼育技術為代表突破關鍵。
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-accent flex items-center gap-1 text-xs font-medium">
+                <span class="bg-accent h-1.5 w-1.5 rounded-full"></span> 最高飼育: 83.4 mm
+                (馬場黃金鬼)
+              </span>
+            </div>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="w-full border-collapse text-left text-sm">
+              <thead>
+                <tr
+                  class="bg-surface-alt/70 border-outline-variant text-on-surface-variant border-b text-[12px] font-bold tracking-wider uppercase"
+                >
+                  <th class="px-5 py-3 whitespace-nowrap">中文俗名 (Common Name)</th>
+                  <th class="px-5 py-3 whitespace-nowrap">學名 (Scientific Name)</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">飼育紀錄 (mm)</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">野生紀錄 (mm)</th>
+                  <th class="px-5 py-3 whitespace-nowrap">日文俗名 (Japanese)</th>
+                  <th class="px-4 py-3 text-center whitespace-nowrap">登錄年</th>
+                  <th class="px-4 py-3 text-center">狀態</th>
+                </tr>
+              </thead>
+              <tbody class="divide-outline-variant/60 divide-y font-medium">
+                <tr class="table-row-hover bg-accent-light/40 transition-colors">
+                  <td class="text-primary flex items-center gap-2 px-5 py-3.5 font-bold">
+                    <span class="text-primary font-extrabold">馬場黃金鬼鍬形蟲</span>
+                    <span class="bg-accent rounded px-1.5 py-0.5 text-[10px] font-bold text-white"
+                      >全屬最大</span
+                    >
+                  </td>
+                  <td class="text-primary/80 px-5 py-3.5 font-normal italic">
+                    Allotopus moellenkampi babai
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-lg font-extrabold">
+                    83.4
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">80.0</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">ババオウゴンオニクワガタ</td>
+                  <td class="text-accent px-4 py-3.5 text-center font-mono text-xs font-bold">
+                    2008
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="bg-accent inline-flex items-center rounded px-2 py-0.5 text-[11px] font-bold text-white"
+                      >飼育天花板</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">莫瑟里黃金鬼鍬形蟲</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Allotopus moellenkampi moseri
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    80.6
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">80.8</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">モセリオウゴンオニクワガタ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2022
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-gray-100 px-2 py-0.5 text-[11px] font-semibold text-gray-600"
+                      >已確認</span
+                    >
+                  </td>
+                </tr>
+                <tr class="table-row-hover transition-colors">
+                  <td class="text-primary px-5 py-3.5 font-bold">羅森伯基黃金鬼鍬形蟲</td>
+                  <td class="text-on-surface-variant px-5 py-3.5 font-normal italic">
+                    Allotopus rosenbergi
+                  </td>
+                  <td class="text-accent px-4 py-3.5 text-right font-mono text-base font-bold">
+                    80.3
+                  </td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-right font-mono">83.0</td>
+                  <td class="text-on-surface-variant px-5 py-3.5">ローゼンベルグオウゴンオニ</td>
+                  <td class="text-on-surface-variant px-4 py-3.5 text-center font-mono text-xs">
+                    2008
+                  </td>
+                  <td class="px-4 py-3.5 text-center">
+                    <span
+                      class="inline-flex items-center rounded bg-gray-100 px-2 py-0.5 text-[11px] font-semibold text-gray-600"
+                      >已確認</span
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <!-- 附註與學術考證說明專區 -->
+        <section
+          class="bg-surface-card border-outline-variant naturalist-shadow rounded-2xl border p-8"
+          id="naming-rules"
+        >
+          <div class="mb-6 flex items-center gap-3">
+            <div
+              class="bg-accent/15 text-accent flex h-8 w-8 items-center justify-center rounded-lg"
+            >
+              <span class="material-symbols-outlined text-xl">menu_book</span>
+            </div>
+            <h3 class="text-primary text-lg font-bold">中文俗名採用規則與數據登錄說明</h3>
+          </div>
+          <div
+            class="text-on-surface-variant grid grid-cols-1 gap-8 text-xs leading-relaxed md:grid-cols-2"
+          >
+            <div class="space-y-3">
+              <h4 class="text-primary text-sm font-bold">
+                一、 中文俗名訂定準則 (Common Name Rules)
+              </h4>
+              <p class="">
+                1.
+                <strong class="text-on-surface">特有種與地域命名</strong
+                >：優先使用國內生物學界行之有年或普遍認同之專有稱呼（例如：高砂深山、艷細身赤、台灣深山）。
+              </p>
+              <p class="">
+                2.
+                <strong class="text-on-surface">種小名意譯與形態命名</strong>：依拉丁種小名意譯，如
+                <span class="italic">elaphus</span> 譯為「紅鹿」、<span class="italic"
+                  >imperator</span
+                >
+                譯為「帝王」、<span class="italic">confucius</span>
+                譯為「孔夫子」。若原意具有明確型態特徵（如
+                <span class="italic">metallifer</span>
+                具金屬光澤），則兼顧通俗飼育界習慣稱「美他利佛」。
+              </p>
+              <p class="">
+                3.
+                <strong class="text-on-surface">人名獻名音譯原則</strong
+                >：若為發表者獻名人名，原則採用約定俗成音譯（如：<span class="italic">babai</span>
+                譯「馬場」、<span class="italic">chewi</span> 譯「周氏」）。
+              </p>
+            </div>
+            <div class="space-y-3">
+              <h4 class="text-primary text-sm font-bold">二、 BEKUWA 紀錄認證與體長量測規範</h4>
+              <p class="">
+                1.
+                所有數據皆以日本むし社發行之甲蟲專門誌《BEKUWA》每年度發表之「世界鍬形蟲飼育紀錄大賽（クワガタ飼育ギネス）」審查認證數據為準。
+              </p>
+              <p class="">
+                2.
+                體長量測均採精密數位游標卡尺，以「顎尖閉合至翅鞘末端」之官方量測姿勢為基準值，精確至小數點後一位
+                (0.1 mm)。
+              </p>
+              <p class="">
+                3. 若飼育紀錄超過野外採集標本紀錄，表格將以
+                <span class="text-accent font-bold">赤陶色粗體標註</span
+                >，彰顯人工個體在食材菌絲配方與環境溫控下的突破。
+              </p>
+            </div>
+          </div>
+          <div
+            class="border-outline-variant text-on-surface-variant mt-6 flex flex-wrap items-center justify-between border-t pt-5 text-[11px]"
+          >
+            <span class="">資料更新參照：BEKUWA No.85 ~ No.94 官方刊載紀錄彙編</span>
+            <span class="italic"
+              >Coleoptera Diary Database • Curated by Parukia &amp; Naturalist Community</span
+            >
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="hero-gradient border-primary-light/20 mt-16 w-full border-t text-white">
+      <div class="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-6 py-14 md:grid-cols-4">
+        <div class="md:col-span-2">
+          <div class="mb-3 flex items-center gap-2">
+            <span class="material-symbols-outlined text-accent text-2xl">pest_control</span>
+            <span class="text-xl font-bold tracking-tight text-white">Coleoptera Diary</span>
+          </div>
+          <p class="max-w-md text-sm leading-relaxed font-normal text-white/70">
+            致力於甲蟲飼育美學、生態攝影與世界物種登錄庫建置。匯整 BEKUWA
+            官方紀錄與第一線標本數據，為繁體中文圈建立系統化且雅緻的昆蟲數位資料誌。
+          </p>
+          <div class="mt-6 text-xs text-white/40">
+            © 2025 Coleoptera Diary. All rights reserved. 飼育記錄與文獻版權屬原著作者與 BEKUWA
+            編輯部所有。
+          </div>
+        </div>
+        <div>
+          <div class="text-accent mb-4 text-xs font-bold tracking-wider uppercase">資料庫導航</div>
+          <ul class="space-y-2.5 text-sm text-white/80">
+            <li class="">
+              <a class="transition-all hover:text-white hover:underline" href="#genus-cyclommatus"
+                >細身赤鍬形蟲屬 (Cyclommatus)</a
+              >
+            </li>
+            <li class="">
+              <a class="transition-all hover:text-white hover:underline" href="#genus-prosopocoilus"
+                >鋸鍬形蟲屬 (Prosopocoilus)</a
+              >
+            </li>
+            <li class="">
+              <a class="transition-all hover:text-white hover:underline" href="#genus-dorcus"
+                >大鍬 &amp; 扁鍬屬 (Dorcus)</a
+              >
+            </li>
+            <li class="">
+              <a class="transition-all hover:text-white hover:underline" href="#genus-lucanus"
+                >深山鍬形蟲屬 (Lucanus)</a
+              >
+            </li>
+            <li class="">
+              <a class="transition-all hover:text-white hover:underline" href="#genus-allotopus"
+                >黃金鬼屬 (Allotopus)</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="text-accent mb-4 text-xs font-bold tracking-wider uppercase">專案與連結</div>
+          <ul class="space-y-2.5 text-sm text-white/80">
+            <li class="">
+              <a class="transition-all hover:text-white hover:underline" href="#"
+                >關於本誌 (About Us)</a
+              >
+            </li>
+            <li class="">
+              <a class="transition-all hover:text-white hover:underline" href="#"
+                >飼育日誌與心得 (Articles)</a
+              >
+            </li>
+            <li class="">
+              <a class="transition-all hover:text-white hover:underline" href="#"
+                >文獻引用規範 (Citation)</a
+              >
+            </li>
+            <li class="">
+              <a class="transition-all hover:text-white hover:underline" href="#"
+                >回報紀錄更新 (Submit Record)</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Simple client-side search filtering across tables
+      document.getElementById('species-search')?.addEventListener('input', function (e) {
+        const query = e.target.value.toLowerCase().trim();
+        const rows = document.querySelectorAll('tbody tr');
+
+        rows.forEach((row) => {
+          const text = row.textContent.toLowerCase();
+          if (!query || text.includes(query)) {
+            row.style.display = '';
+          } else {
+            row.style.display = 'none';
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
