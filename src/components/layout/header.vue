@@ -4,7 +4,7 @@ import { Search } from '@lucide/vue';
 
 <template>
   <header
-    class="border-paper-700/50 bg-paper-500/80 sticky top-0 z-50 border-b text-sm font-semibold tracking-wider shadow-[0px_10px_30px_rgba(27,42,65,0.05)] backdrop-blur-md"
+    class="border-ink-200/30 bg-paper-500/80 sticky top-0 z-50 border-b text-sm font-semibold tracking-wider shadow-[0px_10px_30px_rgba(27,42,65,0.05)] backdrop-blur-md"
   >
     <div class="page-container flex h-20 items-center justify-between">
       <!-- Logo -->
@@ -15,19 +15,19 @@ import { Search } from '@lucide/vue';
         <a href="#" class="border-primary-500 text-primary-500 border-b-2 pb-1"> 首頁 </a>
         <a
           href="#"
-          class="text-primary-400 hover:bg-paper-600 hover:text-primary-500 rounded px-3 py-2 transition-colors duration-300"
+          class="text-ink-400 hover:bg-paper-600 hover:text-primary-500 rounded px-3 py-2 transition-colors duration-300"
         >
           飼育文章
         </a>
         <a
           href="#"
-          class="text-primary-400 hover:bg-paper-600 hover:text-primary-500 rounded px-3 py-2 transition-colors duration-300"
+          class="text-ink-400 hover:bg-paper-600 hover:text-primary-500 rounded px-3 py-2 transition-colors duration-300"
         >
           Bekuwa紀錄
         </a>
         <a
           href="#"
-          class="text-primary-400 hover:bg-paper-600 hover:text-primary-500 rounded px-3 py-2 transition-colors duration-300"
+          class="text-ink-400 hover:bg-paper-600 hover:text-primary-500 rounded px-3 py-2 transition-colors duration-300"
         >
           日常蟲事
         </a>

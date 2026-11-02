@@ -41,8 +41,8 @@
           class="glass-panel absolute right-6 bottom-6 left-6 flex items-center justify-between rounded-lg p-4"
         >
           <div>
-            <p class="text-primary-500 mb-1 text-sm font-semibold">Lucanus cervus</p>
-            <p class="text-primary-400 text-sm">L3 Larval Stage Logged</p>
+            <p class="text-ink-500 mb-1 text-sm font-semibold">Lucanus cervus</p>
+            <p class="text-ink-400 text-sm">L3 Larval Stage Logged</p>
           </div>
           <TrendingUp class="text-tertiary-600" />
         </div>
@@ -84,7 +84,7 @@ import { TrendingUp } from '@lucide/vue';
 .glass-panel {
   background: color-mix(in srgb, var(--color-paper-500) 70%, transparent);
   backdrop-filter: blur(12px);
-  border: 1px solid color-mix(in srgb, var(--color-paper-700) 30%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-ink-200) 30%, transparent);
 }
 /* 背景高光 */
 .hero-glow {

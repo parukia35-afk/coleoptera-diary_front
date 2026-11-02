@@ -21,6 +21,12 @@
   --color-paper-500: #faf9f5;
   --color-paper-600: #e9e8e4;
   --color-paper-700: #dbdad6;
+  
+  /* ===== ink:墨色(文字、邊框),500 是正文色 ===== */
+--color-ink-200: #bfc8c6;
+--color-ink-300: #707977;
+--color-ink-400: #404847;
+--color-ink-500: #1b1c1a;
 
   --font-sans: 'Inter', 'Noto Sans TC', sans-serif;
 }
