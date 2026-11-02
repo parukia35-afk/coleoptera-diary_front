@@ -3,22 +3,22 @@
     <!-- 高光 -->
     <div class="hero-glow"></div>
     <!-- 容器 -->
-    <div
-      class="Z-10 relative mx-auto flex max-w-[1440px] flex-col items-center gap-6 px-8 md:flex-row"
-    >
+    <div class="page-container relative z-10 flex flex-col items-center gap-6 md:flex-row">
       <!-- 文字欄 -->
       <div class="mb-20 flex flex-1 flex-col md:mb-0">
-        <p class="text-accent-soft mb-3 text-sm tracking-wider uppercase">The Art of Observation</p>
+        <p class="text-tertiary-400 mb-3 text-sm tracking-wider uppercase">
+          The Art of Observation
+        </p>
         <h1 class="mb-9 text-3xl font-bold text-white">
           Meticulous records for the modern naturalist.
         </h1>
-        <p class="text-primary-mist mb-15 max-w-lg text-lg opacity-90">
+        <p class="text-primary-100 mb-15 max-w-lg text-lg opacity-90">
           Document the delicate lifecycle of stag beetles, rhinoceros beetles, and flower chafers
           with precise tracking, breeding logs, and environmental data.
         </p>
         <div class="flex gap-3">
           <button
-            class="bg-accent hover:bg-accent-deep rounded-lg px-6 py-3 text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+            class="bg-tertiary-700 hover:bg-tertiary-600 rounded-lg px-6 py-3 text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
           >
             Start Tracking
           </button>
@@ -41,10 +41,10 @@
           class="glass-panel absolute right-6 bottom-6 left-6 flex items-center justify-between rounded-lg p-4"
         >
           <div>
-            <p class="text-primary mb-1 text-sm font-semibold">Lucanus cervus</p>
-            <p class="text-text-soft text-sm">L3 Larval Stage Logged</p>
+            <p class="text-primary-500 mb-1 text-sm font-semibold">Lucanus cervus</p>
+            <p class="text-primary-400 text-sm">L3 Larval Stage Logged</p>
           </div>
-          <TrendingUp class="text-accent" />
+          <TrendingUp class="text-tertiary-600" />
         </div>
       </div>
     </div>
@@ -58,7 +58,7 @@ import { TrendingUp } from '@lucide/vue';
 <style scoped>
 /* section背景 */
 .hero-bg {
-  background: linear-gradient(135deg, #0f4743 0%, #194f4a 100%);
+  background: linear-gradient(135deg, var(--color-primary-500) 0%, var(--color-primary-400) 100%);
   position: relative;
   overflow: hidden;
 }
@@ -68,16 +68,23 @@ import { TrendingUp } from '@lucide/vue';
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(163, 215, 208, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(163, 215, 208, 0.05) 1px, transparent 1px);
+    linear-gradient(
+      color-mix(in srgb, var(--color-primary-200) 5%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--color-primary-200) 5%, transparent) 1px,
+      transparent 1px
+    );
   background-size: 32px 32px;
   opacity: 0.5;
 }
 /* hero圖上的浮動玻璃卡片 */
 .glass-panel {
-  background: rgba(250, 249, 245, 0.7);
+  background: color-mix(in srgb, var(--color-paper-500) 70%, transparent);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(191, 200, 198, 0.3);
+  border: 1px solid color-mix(in srgb, var(--color-paper-700) 30%, transparent);
 }
 /* 背景高光 */
 .hero-glow {
@@ -86,7 +93,11 @@ import { TrendingUp } from '@lucide/vue';
   left: -10%;
   width: 70%;
   height: 70%;
-  background: radial-gradient(circle, rgba(168, 101, 74, 0.15) 0%, transparent 70%);
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--color-tertiary-500) 15%, transparent) 0%,
+    transparent 70%
+  );
   border-radius: 50%;
   filter: blur(40px);
   pointer-events: none;
