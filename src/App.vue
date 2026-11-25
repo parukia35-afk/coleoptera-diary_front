@@ -1,19 +1,15 @@
 <template>
   <Header></Header>
-  <Hero></Hero>
+  <HomePage></HomePage>
   <Footer></Footer>
-  <recordHero></recordHero>
-  <FilterBar></FilterBar>
-  <RecordTable></RecordTable>
+  <RecordPage></RecordPage>
 </template>
 
 <script setup lang="ts">
-import Header from './components/layout/Header.vue';
-import Footer from './components/layout/Footer.vue';
-import Hero from './components/home/HomeHero.vue';
-import recordHero from './components/record/RecordHero.vue';
-import FilterBar from './components/record/FilterBar.vue';
-import RecordTable from './components/record/RecordTable.vue';
+import Header from '@/components/layout/Header.vue';
+import Footer from '@/components/layout/Footer.vue';
+import HomePage from '@/views/home/HomePage.vue';
+import RecordPage from '@/views/record/RecordPage.vue';
 </script>
 
 <style scoped></style>

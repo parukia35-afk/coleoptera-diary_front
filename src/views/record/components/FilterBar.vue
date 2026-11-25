@@ -3,32 +3,30 @@ import { computed, onBeforeUnmount, onMounted, ref } from 'vue';
 import { Info } from '@lucide/vue';
 
 interface Genus {
-  id: string;
+  id: number;
   name: string;
-  latin: string; // 還沒確定的學名先留空字串
+  latin: string;
 }
 
-// 順序 = 使用者常用程度。chip 取前 N 個,下拉面板列全部。
-const GENERA: Genus[] = [
-  { id: 'prosopocoilus', name: '鋸鍬', latin: 'Prosopocoilus' },
-  { id: 'dorcus', name: '大鍬', latin: 'Dorcus' },
-  { id: 'odontolabis', name: '豔鍬', latin: 'Odontolabis' },
-  { id: 'lucanus', name: '深山', latin: 'Lucanus' },
-  { id: 'hexarthrius', name: '叉角', latin: 'Hexarthrius' },
-  { id: 'cyclommatus', name: '細身', latin: 'Cyclommatus' },
-  { id: 'flat', name: '扁鍬', latin: '' },
-  { id: 'small', name: '小鍬', latin: '' },
-  { id: 'rhaetus', name: '鹿角', latin: 'Rhaetulus / Rhaetus' },
-  { id: 'allotopus', name: '黃金鬼', latin: 'Allotopus' },
-  { id: 'neolucanus', name: '圓翅', latin: 'Neolucanus' },
-  { id: 'aegus', name: '肥角', latin: 'Aegus' },
-  { id: 'kirchnerius', name: '鉗鍬', latin: 'Kirchnerius' },
-  { id: 'epidorcus', name: '前鍬', latin: 'Epidorcus' },
-  { id: 'others', name: '其他', latin: '' },
-];
+const props = defineProps<{
+  groups: { genus: { id: number; nameZh: string; nameEn: string } }[];
+}>();
 
-// ---- 狀態(切版階段只為了看得到 active / 展開樣式,尚未接資料) ----
-const selected = ref<string>('all');
+// 目前選中的屬 id,null = 全部;資料由父層持有
+const selected = defineModel<number | null>({ default: null });
+
+// 搜尋關鍵字;父層用 v-model:query 綁定
+const query = defineModel<string>('query', { default: '' });
+
+// 順序 = 資料庫的 sortOrder(genusGroups 已排好)
+const genera = computed<Genus[]>(() =>
+  props.groups.map(({ genus }) => ({
+    id: genus.id,
+    name: genus.nameZh,
+    latin: genus.nameEn,
+  })),
+);
+
 const isOpen = ref(false);
 const rootRef = ref<HTMLElement | null>(null);
 
@@ -42,17 +40,17 @@ function updateVisibleCount() {
   visibleCount.value = mqXl.matches ? 6 : mqMd.matches ? 4 : 0;
 }
 
-const visibleChips = computed(() => GENERA.slice(0, visibleCount.value));
+const visibleChips = computed(() => genera.value.slice(0, visibleCount.value));
 
 // 選中的屬若不在可見 chip 裡,就由「更多屬別」按鈕代表它
 const hiddenSelected = computed(() => {
-  const g = GENERA.find((x) => x.id === selected.value);
+  const g = genera.value.find((x) => x.id === selected.value);
   return g && !visibleChips.value.includes(g) ? g : null;
 });
 const moreLabel = computed(() => hiddenSelected.value?.name ?? '更多屬別');
 const moreActive = computed(() => hiddenSelected.value !== null);
 
-function select(id: string) {
+function select(id: number | null) {
   selected.value = id;
   isOpen.value = false;
 }
@@ -90,9 +88,9 @@ const chipActive = 'bg-primary-500 text-white';
       <div ref="rootRef" class="relative flex flex-wrap items-center gap-2">
         <button
           type="button"
-          :aria-pressed="selected === 'all'"
-          :class="[chipBase, selected === 'all' ? chipActive : chipIdle]"
-          @click="select('all')"
+          :aria-pressed="selected === null"
+          :class="[chipBase, selected === null ? chipActive : chipIdle]"
+          @click="select(null)"
         >
           全部
         </button>
@@ -156,10 +154,10 @@ const chipActive = 'bg-primary-500 text-white';
           class="border-ink-200 absolute top-full left-0 z-50 mt-2 w-[min(88vw,30rem)] rounded-xl border bg-white p-3 shadow-lg"
         >
           <div class="border-ink-200/60 text-ink-400 mb-2 border-b pb-2 text-xs font-semibold">
-            全部屬別({{ GENERA.length }})
+            全部屬別({{ genera.length }})
           </div>
           <ul class="grid grid-cols-2 gap-1" role="listbox">
-            <li v-for="g in GENERA" :key="g.id" role="option" :aria-selected="selected === g.id">
+            <li v-for="g in genera" :key="g.id" role="option" :aria-selected="selected === g.id">
               <button
                 type="button"
                 class="flex w-full cursor-pointer flex-col rounded-lg px-3 py-2 text-left transition-colors"
@@ -192,6 +190,7 @@ const chipActive = 'bg-primary-500 text-white';
           <path d="m14 14 3.5 3.5" stroke-linecap="round" />
         </svg>
         <input
+          v-model="query"
           type="text"
           placeholder="搜尋學名、中文名或日文名…"
           class="border-ink-200 bg-paper-600/60 text-ink-500 placeholder:text-ink-300 focus:border-primary-400 focus:ring-primary-400 w-full rounded-full border py-1.5 pr-4 pl-10 text-sm focus:ring-1 focus:outline-none"
