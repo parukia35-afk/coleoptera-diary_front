@@ -247,10 +247,11 @@ const chipActive = 'bg-primary-500 text-white'; // 選中
           </svg>
         </button>
 
-        <!-- 命名規範按鈕。注意:目前沒有 @click,點了不會有反應(預留位置)
+        <!-- 命名規範連結:跳到 NamingRules 裡 id="naming-rules" 的區塊。
+             「移動到頁面某處」是導覽,所以用 <a> 而不是 <button>,不需要寫 JS
              aria-hidden="true":圖示是裝飾,不需要螢幕閱讀器念出來 -->
-        <button
-          type="button"
+        <a
+          href="#naming-rules"
           :class="[
             chipBase,
             'border-ink-200 text-ink-400 hover:text-primary-500 hover:border-primary-400 flex items-center gap-1 border bg-transparent',
@@ -258,7 +259,7 @@ const chipActive = 'bg-primary-500 text-white'; // 選中
         >
           <Info class="h-4 w-4" aria-hidden="true" />
           命名規範
-        </button>
+        </a>
 
         <!-- 下拉面板:永遠列出全部屬別(用 genera,不是 visibleChips)。
              v-if="isOpen":關閉時元素根本不存在於 DOM(v-show 則只是用 CSS 隱藏)

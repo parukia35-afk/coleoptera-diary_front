@@ -3,6 +3,8 @@ import { computed, ref, onMounted } from 'vue';
 import RecordHero from './components/RecordHero.vue';
 import FilterBar from './components/FilterBar.vue';
 import RecordTable from './components/RecordTable.vue';
+import NamingRules from './components/NamingRules.vue';
+import StatusPanel from '@/components/StatusPanel.vue';
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
@@ -133,10 +135,11 @@ function resetFilters() {
 
 <template>
   <RecordHero :records="records" :latest-year="latestYear" />
-  <p v-if="isLoading">載入中…</p>
-  <p v-else-if="errorMessage">{{ errorMessage }}</p>
+  <StatusPanel v-if="isLoading" message="資料載入中…" />
+  <StatusPanel v-else-if="errorMessage" :message="errorMessage" is-error />
   <template v-else>
     <FilterBar v-model="selectedGenusId" v-model:query="searchQuery" :groups="genusGroups" />
     <RecordTable :groups="displayedGroups" @reset="resetFilters" />
+    <NamingRules />
   </template>
 </template>
