@@ -4,11 +4,11 @@
       "$oid": "6970831f9485a5a5a2267c53"
     },
     "genus": "細身赤鍬形蟲屬 Cyclommatus",
-    "commonName": "艷細身",
-    "scientificName": "asahinai",
+    "commonName": "豔細身",
+    "scientificName": "asahinai asahinai",
     "captiveRecord": 47.2,
-    "wildRecord": 50,
-    "japaneseName": "アサヒナ（原名亞種）",
+    "wildRecord": 48,
+    "japaneseName": "アサヒナ（原名亜種）",
     "year": 2025,
     "isTaiwanese": true,
     "createdAt": {
@@ -170,8 +170,8 @@
     "commonName": "卡納力毛細身",
     "scientificName": "canaliculatus freygessneri",
     "captiveRecord": 61.4,
-    "wildRecord": 57,
-    "japaneseName": "カナリクラトゥス（爪哇）",
+    "wildRecord": 58.8,
+    "japaneseName": "カナリクラトゥス（ジャワ）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.525Z"
@@ -189,7 +189,7 @@
     "scientificName": "canaliculatus consanguineus",
     "captiveRecord": 52.2,
     "wildRecord": 52.8,
-    "japaneseName": "カナリクラトゥス（北婆羅洲）",
+    "japaneseName": "カナリクラトゥス（ボルネオ北部）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.525Z"
@@ -208,7 +208,7 @@
     "captiveRecord": 58.3,
     "wildRecord": 56.2,
     "japaneseName": "カナリクラトゥス（原名亜種）",
-    "year": 2015,
+    "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.525Z"
     },
@@ -222,10 +222,10 @@
     },
     "genus": "細身赤鍬形蟲屬 Cyclommatus",
     "commonName": "卡納力毛細身",
-    "scientificName": "canaliculatus ?",
+    "scientificName": "canaliculatus ramlii",
     "captiveRecord": 56.5,
     "wildRecord": 46.4,
-    "japaneseName": "カナリクラトゥス（南婆羅洲）",
+    "japaneseName": "カナリクラトゥス（ボルネオ南部）",
     "year": 2014,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.525Z"
@@ -259,10 +259,10 @@
     "genus": "細身赤鍬形蟲屬 Cyclommatus",
     "commonName": "庫培雞冠細身",
     "scientificName": "cupreonitens",
-    "captiveRecord": 5,
+    "captiveRecord": 60.7,
     "wildRecord": 69.5,
     "japaneseName": "クプレオニテンス",
-    "year": 2023,
+    "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.525Z"
     },
@@ -276,7 +276,7 @@
     },
     "genus": "細身赤鍬形蟲屬 Cyclommatus",
     "commonName": "細身赤鍬形蟲",
-    "scientificName": "scutellaris",
+    "scientificName": "multidentatus scutellaris",
     "captiveRecord": 42.7,
     "wildRecord": 45,
     "japaneseName": "スクテラリス",
@@ -296,10 +296,10 @@
     "genus": "細身赤鍬形蟲屬 Cyclommatus",
     "commonName": "涼村氏細身赤",
     "scientificName": "suzumurai",
-    "captiveRecord": 44.5,
-    "wildRecord": 40.7,
+    "captiveRecord": 47.1,
+    "wildRecord": 41.6,
     "japaneseName": "スズムラ",
-    "year": 2009,
+    "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.525Z"
     },
@@ -352,7 +352,7 @@
     "scientificName": "speciosus anepsius",
     "captiveRecord": 68.3,
     "wildRecord": 59.5,
-    "japaneseName": "スペキオスス( マライタ）",
+    "japaneseName": "スペキオスス（anepsius）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.525Z"
@@ -424,7 +424,7 @@
     "scientificName": "mniszechi",
     "captiveRecord": 61.7,
     "wildRecord": 56,
-    "japaneseName": "トサカ（台灣）",
+    "japaneseName": "トサカ（台湾）",
     "year": 2014,
     "isTaiwanese": true,
     "createdAt": {
@@ -442,7 +442,7 @@
     "commonName": "屯卡特斯細身",
     "scientificName": "truncatus",
     "captiveRecord": 75.9,
-    "wildRecord": 82.2,
+    "wildRecord": 87.8,
     "japaneseName": "トルンカートゥス",
     "year": 2025,
     "createdAt": {
@@ -458,7 +458,7 @@
     },
     "genus": "細身赤鍬形蟲屬 Cyclommatus",
     "commonName": "新幾內亞大頭細身",
-    "scientificName": "weinreich",
+    "scientificName": "weinreichi",
     "captiveRecord": 57.4,
     "wildRecord": 55,
     "japaneseName": "バインライヒ",
@@ -493,11 +493,11 @@
       "$oid": "6970831f9485a5a5a2267c6e"
     },
     "genus": "細身赤鍬形蟲屬 Cyclommatus",
-    "commonName": "柏亨堅尼斯細身",
-    "scientificName": "pahangensis",
+    "commonName": "泰國豔細身",
+    "scientificName": "albersi albersi",
     "captiveRecord": 45.6,
     "wildRecord": 43,
-    "japaneseName": "パハン",
+    "japaneseName": "アルバーシ（原名亜種）",
     "year": 2005,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -532,7 +532,7 @@
     "commonName": "雙色細身",
     "scientificName": "bicolor",
     "captiveRecord": 42.3,
-    "wildRecord": 35.2,
+    "wildRecord": 37.7,
     "japaneseName": "ビコロール",
     "year": 2025,
     "createdAt": {
@@ -569,7 +569,7 @@
     "scientificName": "martinii",
     "captiveRecord": 44.5,
     "wildRecord": 43.6,
-    "japaneseName": "マルティニ（婆羅洲北部）",
+    "japaneseName": "マルティニ（ボルネオ北部）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -583,8 +583,8 @@
       "$oid": "6970831f9485a5a5a2267c73"
     },
     "genus": "細身赤鍬形蟲屬 Cyclommatus",
-    "commonName": "泰國細身赤",
-    "scientificName": "multidentatus",
+    "commonName": "細身赤鍬形蟲",
+    "scientificName": "multidentatus multidentatus",
     "captiveRecord": 42.5,
     "wildRecord": 44,
     "japaneseName": "ムルティデンタトゥス",
@@ -620,10 +620,10 @@
     },
     "genus": "細身赤鍬形蟲屬 Cyclommatus",
     "commonName": "美他利佛",
-    "scientificName": "metallifer aeneomicans",
+    "scientificName": "metallifer aenomicans",
     "captiveRecord": 86.9,
-    "wildRecord": 78.4,
-    "japaneseName": "メタリフェル（アエノミカンス）",
+    "wildRecord": 80.7,
+    "japaneseName": "メタリフェル（aenomicans）",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -641,7 +641,7 @@
     "scientificName": "metallifer sangirensis",
     "captiveRecord": 89.6,
     "wildRecord": 82,
-    "japaneseName": "メタリフェル（サンギール）",
+    "japaneseName": "メタリフェル（sangirensis）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -659,7 +659,7 @@
     "scientificName": "metallifer isogaii",
     "captiveRecord": 90.7,
     "wildRecord": 69.5,
-    "japaneseName": "メタリフェル（スーラ諸島）",
+    "japaneseName": "メタリフェル（isogaii）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -677,7 +677,7 @@
     "scientificName": "metallifer finae",
     "captiveRecord": 101.7,
     "wildRecord": 100,
-    "japaneseName": "メタリフェル（ペレン）",
+    "japaneseName": "メタリフェル（finae）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -749,7 +749,7 @@
     "scientificName": "montanellus",
     "captiveRecord": 76.2,
     "wildRecord": 79,
-    "japaneseName": "モンタネルス（原名亜種）",
+    "japaneseName": "モンタネルス",
     "year": 2012,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -838,8 +838,8 @@
     "commonName": "兩點赤",
     "scientificName": "astacoides pallidipennis",
     "captiveRecord": 73.6,
-    "wildRecord": 74,
-    "japaneseName": "アスタコイデス（蘇門答臘・爪哇）",
+    "wildRecord": 74.3,
+    "japaneseName": "アスタコイデス（pallidipennis）",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -875,28 +875,9 @@
     "scientificName": "astacoides karubei",
     "captiveRecord": 72.1,
     "wildRecord": 62.4,
-    "japaneseName": "アスタコイデス( 越南中部ssp. ？ )",
+    "japaneseName": "アスタコイデス（karubei）",
     "year": 2024,
     "locality": "越南中部",
-    "createdAt": {
-      "$date": "2026-01-21T07:41:19.526Z"
-    },
-    "updatedAt": {
-      "$date": "2026-01-21T07:41:19.526Z"
-    }
-  },
-  {
-    "_id": {
-      "$oid": "6970831f9485a5a5a2267c84"
-    },
-    "genus": "鋸鍬形蟲屬 Prosopocoilus",
-    "commonName": "兩點赤",
-    "scientificName": "astacoides karubei",
-    "captiveRecord": 67.4,
-    "wildRecord": 62.4,
-    "japaneseName": "アスタコイデス（越南南部）",
-    "year": 2021,
-    "locality": "越南南部",
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
     },
@@ -913,7 +894,7 @@
     "scientificName": "astacoides mizunumai",
     "captiveRecord": 82.8,
     "wildRecord": 90,
-    "japaneseName": "アスタコイデス（馬來半島）",
+    "japaneseName": "アスタコイデス（mizunumai）",
     "year": 2023,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -927,11 +908,11 @@
       "$oid": "6970831f9485a5a5a2267c86"
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
-    "commonName": "兩點赤",
-    "scientificName": "astacoides castaneus",
+    "commonName": "寮國兩點赤",
+    "scientificName": "castaneus castaneus",
     "captiveRecord": 63.6,
     "wildRecord": 61,
-    "japaneseName": "アスタコイデス（castaneus）",
+    "japaneseName": "カスタネウス（原名亜種）",
     "year": 2019,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -949,7 +930,7 @@
     "scientificName": "astacoides blanchardi",
     "captiveRecord": 72.7,
     "wildRecord": 67.7,
-    "japaneseName": "アスタコイデス（台灣・中國）",
+    "japaneseName": "アスタコイデス（blanchardi）",
     "year": 2023,
     "isTaiwanese": true,
     "createdAt": {
@@ -965,7 +946,7 @@
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "非洲鉗角",
-    "scientificName": "antilope",
+    "scientificName": "antilope antilope",
     "captiveRecord": 49.1,
     "wildRecord": 47,
     "japaneseName": "アンティロプス（原名亜種）",
@@ -1022,7 +1003,7 @@
     "scientificName": "inquinatus yazakii",
     "captiveRecord": 39.4,
     "wildRecord": 36,
-    "japaneseName": "インクイナトゥス（ヒマラヤ東部）",
+    "japaneseName": "インクイナトゥス（yazakii）",
     "year": 2023,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1040,7 +1021,7 @@
     "scientificName": "wallacei",
     "captiveRecord": 79.3,
     "wildRecord": 75.9,
-    "japaneseName": "ウォーレス",
+    "japaneseName": "ウォレス",
     "year": 2022,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1057,8 +1038,8 @@
     "commonName": "烏罕鋸",
     "scientificName": "umhangi",
     "captiveRecord": 72,
-    "wildRecord": 70.7,
-    "japaneseName": "ウムハング",
+    "wildRecord": 72,
+    "japaneseName": "ウンハン",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1162,8 +1143,8 @@
       "$oid": "6970831f9485a5a5a2267c93"
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
-    "commonName": "普托尼鋸(原兩點赤kachinensis亞種)",
-    "scientificName": "kachinensis",
+    "commonName": "克欽兩點赤",
+    "scientificName": "castaneus kachinensis",
     "captiveRecord": 67.9,
     "wildRecord": 64.6,
     "japaneseName": "カスタネウス（kachinensis）",
@@ -1202,7 +1183,7 @@
     "scientificName": "giraffa keisukei",
     "captiveRecord": 122,
     "wildRecord": 121,
-    "japaneseName": "ギラファ（ケイスケ）",
+    "japaneseName": "ギラファ（keisukei）",
     "year": 2022,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1220,7 +1201,7 @@
     "scientificName": "giraffa nishikawai",
     "captiveRecord": 102.3,
     "wildRecord": 104,
-    "japaneseName": "ギラファ（サンギール）",
+    "japaneseName": "ギラファ（サンギール nishikawai）",
     "year": 2023,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1238,7 +1219,7 @@
     "scientificName": "giraffa daisukei",
     "captiveRecord": 119.4,
     "wildRecord": 114,
-    "japaneseName": "ギラファ（ダイスケ）",
+    "japaneseName": "ギラファ（daisukei）",
     "year": 2009,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1256,7 +1237,7 @@
     "scientificName": "giraffa timorensis",
     "captiveRecord": 99.9,
     "wildRecord": 94,
-    "japaneseName": "ギラファ（ティモール）",
+    "japaneseName": "ギラファ（timorensis）",
     "year": 2016,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1274,7 +1255,7 @@
     "scientificName": "giraffa nilgiriensis",
     "captiveRecord": 106.4,
     "wildRecord": 106.6,
-    "japaneseName": "ギラファ（ニルギリ）",
+    "japaneseName": "ギラファ（nilgiriensis）",
     "year": 2012,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1292,7 +1273,7 @@
     "scientificName": "giraffa borobudur",
     "captiveRecord": 102.2,
     "wildRecord": 103,
-    "japaneseName": "ギラファ（ボロブドゥル）",
+    "japaneseName": "ギラファ（borobudur）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1310,7 +1291,7 @@
     "scientificName": "giraffa makitai",
     "captiveRecord": 110.1,
     "wildRecord": 111,
-    "japaneseName": "ギラファ（マキタ）",
+    "japaneseName": "ギラファ（makitai）",
     "year": 2005,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1400,7 +1381,7 @@
     "scientificName": "savagei",
     "captiveRecord": 65.4,
     "wildRecord": 65,
-    "japaneseName": "サベッジ",
+    "japaneseName": "サヴィッジ",
     "year": 2022,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1414,11 +1395,11 @@
       "$oid": "6970831f9485a5a5a2267ca1"
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
-    "commonName": "茱麗葉",
-    "scientificName": "julietae",
+    "commonName": "〈尚無中文名〉",
+    "scientificName": "jenkinsii sukkiti",
     "captiveRecord": 42.3,
     "wildRecord": 42.5,
-    "japaneseName": "ジェンキンス（スキット）",
+    "japaneseName": "ジェンキンス（タイ sukkiti）",
     "year": 2017,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1451,10 +1432,10 @@
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "史庫瓦米拉塔利鋸",
-    "scientificName": "squamilataris",
+    "scientificName": "squamilateris",
     "captiveRecord": 37.7,
     "wildRecord": 31,
-    "japaneseName": "スクアミラテリス（婆羅洲）",
+    "japaneseName": "スクアミラテリス（ボルネオ）",
     "year": 2023,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1525,7 +1506,7 @@
     "commonName": "炫麗鋸",
     "scientificName": "spectabilis",
     "captiveRecord": 53.2,
-    "wildRecord": 49.4,
+    "wildRecord": 56,
     "japaneseName": "スペクタビリス",
     "year": 2016,
     "createdAt": {
@@ -1580,7 +1561,7 @@
     "scientificName": "zebra nobuyukii",
     "captiveRecord": 56,
     "wildRecord": 53.9,
-    "japaneseName": "ゼブラ（爪哇）",
+    "japaneseName": "ゼブラ（ジャワ）",
     "year": 2005,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1796,9 +1777,9 @@
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "酒紅鋸",
-    "scientificName": "dorsaliis hiromii",
+    "scientificName": "dorsalis hiromii",
     "captiveRecord": 73,
-    "wildRecord": 63.4,
+    "wildRecord": 70,
     "japaneseName": "ドルサリス（hiromii）",
     "year": 2024,
     "createdAt": {
@@ -1814,7 +1795,7 @@
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "酒紅鋸",
-    "scientificName": "dorsaliis dorsaliis",
+    "scientificName": "dorsalis dorsalis",
     "captiveRecord": 57.8,
     "wildRecord": 54.2,
     "japaneseName": "ドルサリス（原名亜種）",
@@ -1831,11 +1812,11 @@
       "$oid": "6970831f9485a5a5a2267cb8"
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
-    "commonName": "多瑞斯鋸",
-    "scientificName": "doris",
+    "commonName": "澳洲鋸",
+    "scientificName": "torresensis flavoguttatus",
     "captiveRecord": 46,
     "wildRecord": 42,
-    "japaneseName": "トレス（昆士蘭）",
+    "japaneseName": "トレス（クイーンズランド）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1849,8 +1830,8 @@
       "$oid": "6970831f9485a5a5a2267cb9"
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
-    "commonName": "多瑞斯鋸",
-    "scientificName": "doris doris",
+    "commonName": "澳洲鋸",
+    "scientificName": "torresensis torresensis",
     "captiveRecord": 43.8,
     "wildRecord": 31.9,
     "japaneseName": "トレス（原名亜種）",
@@ -1869,7 +1850,7 @@
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "坦尚尼亞鉗角鋸",
     "scientificName": "natalensis",
-    "captiveRecord": 48.3,
+    "captiveRecord": 48.7,
     "wildRecord": 54,
     "japaneseName": "ナタール",
     "year": 2024,
@@ -1907,7 +1888,7 @@
     "scientificName": "hasterti nakagomei",
     "captiveRecord": 63.3,
     "wildRecord": 52.2,
-    "japaneseName": "ハスタート（ガダルカナル）",
+    "japaneseName": "ハスタート（nakagomei）",
     "year": 2023,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -1994,10 +1975,10 @@
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "野牛鋸",
-    "scientificName": "bison magnifics",
+    "scientificName": "bison magnificus",
     "captiveRecord": 54.3,
     "wildRecord": 57,
-    "japaneseName": "ビソン（magnifics）",
+    "japaneseName": "ビソン（magnificus）",
     "year": 2011,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -2030,10 +2011,10 @@
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "黃紋鋸",
-    "scientificName": "biplagiatus",
+    "scientificName": "biplagiatus biplagiatus",
     "captiveRecord": 50,
     "wildRecord": 45,
-    "japaneseName": "ビプラギアトゥス",
+    "japaneseName": "ビプラギアトゥス（原名亜種）",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.526Z"
@@ -2123,7 +2104,7 @@
     "scientificName": "forficula austerus",
     "captiveRecord": 39.2,
     "wildRecord": 62,
-    "japaneseName": "フォルフィクラ（台灣）",
+    "japaneseName": "フォルフィクラ（台湾 austerus）",
     "year": 2023,
     "isTaiwanese": true,
     "createdAt": {
@@ -2140,10 +2121,10 @@
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "非洲鉗角鋸",
     "scientificName": "fuscus",
-    "captiveRecord": 52.2,
+    "captiveRecord": 53.2,
     "wildRecord": 51,
     "japaneseName": "フスクス",
-    "year": 2018,
+    "year": 2023,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
     },
@@ -2160,7 +2141,7 @@
     "scientificName": "buddha approximatus",
     "captiveRecord": 54.4,
     "wildRecord": 48.8,
-    "japaneseName": "ブッダ（中南半島〜蘇門答臘）",
+    "japaneseName": "ブッダ（インドシナ南部 approximatus）",
     "year": 2023,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -2178,7 +2159,7 @@
     "scientificName": "buddha patricius",
     "captiveRecord": 70.6,
     "wildRecord": 69,
-    "japaneseName": "ブッダ（蘇拉威西）",
+    "japaneseName": "ブッダ（スラウェシ patricius）",
     "year": 2009,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -2196,7 +2177,7 @@
     "scientificName": "buddha palawanicus",
     "captiveRecord": 53.7,
     "wildRecord": 53.3,
-    "japaneseName": "ブッダ(巴拉望島)",
+    "japaneseName": "ブッダ（パラワン）",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -2211,10 +2192,10 @@
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "佛祖鋸",
-    "scientificName": "buddha ?",
+    "scientificName": "buddha ebeninus",
     "captiveRecord": 59.5,
     "wildRecord": 53,
-    "japaneseName": "ブッダ（民答那峨）",
+    "japaneseName": "ブッダ（ミンダナオ）",
     "year": 2016,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -2229,29 +2210,11 @@
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "佛祖鋸",
-    "scientificName": "buddha buddha",
-    "captiveRecord": 53,
-    "wildRecord": 49.1,
-    "japaneseName": "ブッダ（原名亜種）",
-    "year": 2010,
-    "createdAt": {
-      "$date": "2026-01-21T07:41:19.527Z"
-    },
-    "updatedAt": {
-      "$date": "2026-01-21T07:41:19.527Z"
-    }
-  },
-  {
-    "_id": {
-      "$oid": "6970831f9485a5a5a2267ccf"
-    },
-    "genus": "鋸鍬形蟲屬 Prosopocoilus",
-    "commonName": "佛祖鋸",
-    "scientificName": "buddha thibeticus",
-    "captiveRecord": 58.7,
-    "wildRecord": 55.4,
-    "japaneseName": "ブッダ（中国〜寮國）",
-    "year": 2019,
+    "scientificName": "buddha erberi",
+    "captiveRecord": 58.9,
+    "wildRecord": 53.7,
+    "japaneseName": "ブッダ（マレー～スマトラ erberi）",
+    "year": 2016,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
     },
@@ -2265,10 +2228,10 @@
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "佛祖鋸",
-    "scientificName": "buddha ebeninus",
+    "scientificName": "buddha cavifrons",
     "captiveRecord": 59.6,
     "wildRecord": 56.8,
-    "japaneseName": "ブッダ（北菲律賓）",
+    "japaneseName": "ブッダ（北フィリピン cavifrons）",
     "year": 2013,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -2286,7 +2249,7 @@
     "scientificName": "flavidus borneoensis",
     "captiveRecord": 30,
     "wildRecord": 44.8,
-    "japaneseName": "フラヴィドゥス（婆羅洲）",
+    "japaneseName": "フラヴィドゥス（ボルネオ）",
     "year": 2021,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -2322,7 +2285,7 @@
     "scientificName": "bruijni tahulandangensis",
     "captiveRecord": 38.9,
     "wildRecord": 37.1,
-    "japaneseName": "ブルイジン（スライヤル）",
+    "japaneseName": "ブルイジン（スラヤール）",
     "year": 2012,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -2340,7 +2303,7 @@
     "scientificName": "bruijni rufulus",
     "captiveRecord": 44.7,
     "wildRecord": 45.7,
-    "japaneseName": "ブルイジン（蘇拉威西）",
+    "japaneseName": "ブルイジン（スラウェシ）",
     "year": 2014,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -2466,7 +2429,7 @@
     "scientificName": "porrectus",
     "captiveRecord": 62.5,
     "wildRecord": 58,
-    "japaneseName": "ポレクトゥス （porrectus)",
+    "japaneseName": "ポレクトゥス（porrectus）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -2480,11 +2443,11 @@
       "$oid": "6970831f9485a5a5a2267cdc"
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
-    "commonName": "麥克蘭鋸",
-    "scientificName": "maclellandi",
+    "commonName": "〈尚無中文名〉",
+    "scientificName": "jenkinsii chujoi",
     "captiveRecord": 42.4,
     "wildRecord": 36.4,
-    "japaneseName": "ジェンキンス（南越南）",
+    "japaneseName": "ジェンキンス（ベトナム南部 chujoi）",
     "year": 2013,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -2502,7 +2465,7 @@
     "scientificName": "mysticus mysticus",
     "captiveRecord": 43.7,
     "wildRecord": 46.2,
-    "japaneseName": "ミスティクス（原名亞種）",
+    "japaneseName": "ミスティクス（原名亜種）",
     "year": 2019,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -2517,28 +2480,10 @@
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "奧秘鋸",
-    "scientificName": "mysticus ?",
-    "captiveRecord": 42.8,
-    "wildRecord": 43.7,
-    "japaneseName": "ミスティクス(スマトラ・ニアスrusa)",
-    "year": 2010,
-    "createdAt": {
-      "$date": "2026-01-21T07:41:19.527Z"
-    },
-    "updatedAt": {
-      "$date": "2026-01-21T07:41:19.527Z"
-    }
-  },
-  {
-    "_id": {
-      "$oid": "6970831f9485a5a5a2267cdf"
-    },
-    "genus": "鋸鍬形蟲屬 Prosopocoilus",
-    "commonName": "奧秘鋸",
     "scientificName": "mysticus rusa",
     "captiveRecord": 42.8,
     "wildRecord": 43.7,
-    "japaneseName": "ミスティクス（蘇門答臘・ニアス）",
+    "japaneseName": "ミスティクス（スマトラ・ニアス rusa）",
     "year": 2010,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -2589,7 +2534,7 @@
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "莫妮卡鋸",
-    "scientificName": "mohnikei",
+    "scientificName": "mohnikei mohnikei",
     "captiveRecord": 56.5,
     "wildRecord": 59.2,
     "japaneseName": "モーニッケ（原名亜種）",
@@ -2646,7 +2591,7 @@
     "scientificName": "lateralis lorquini",
     "captiveRecord": 62,
     "wildRecord": 59,
-    "japaneseName": "ラテラリス（蘇拉威西）",
+    "japaneseName": "ラテラリス（スラウェシ）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -2697,7 +2642,7 @@
     },
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "拉特達路蘇斯鋸",
-    "scientificName": "laterotarsus",
+    "scientificName": "laterotarsus laterotarsus",
     "captiveRecord": 50,
     "wildRecord": 44,
     "japaneseName": "ラテロタルスス（原名亜種）",
@@ -2752,10 +2697,10 @@
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "露瑪維奇鋸",
     "scientificName": "lumawigi",
-    "captiveRecord": 70.7,
+    "captiveRecord": 66.7,
     "wildRecord": 70.1,
     "japaneseName": "ルマウィ",
-    "year": 2020,
+    "year": 2012,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
     },
@@ -2789,7 +2734,7 @@
     "commonName": "日本鋸",
     "scientificName": "inclinatus inclinatus",
     "captiveRecord": 76.8,
-    "wildRecord": 82,
+    "wildRecord": 77,
     "japaneseName": "ノコギリ",
     "year": 2015,
     "createdAt": {
@@ -2825,7 +2770,7 @@
     "commonName": "屋久島鋸",
     "scientificName": "inclinatus yakushimaensis",
     "captiveRecord": 72.7,
-    "wildRecord": 76,
+    "wildRecord": 69.3,
     "japaneseName": "ヤクシマノコギリ",
     "year": 2025,
     "createdAt": {
@@ -2843,7 +2788,7 @@
     "commonName": "三島鋸(硫磺島鋸)",
     "scientificName": "inclinatus mishimaiouensis",
     "captiveRecord": 73.8,
-    "wildRecord": 78,
+    "wildRecord": 69.3,
     "japaneseName": "ミシマイオウノコギリ",
     "year": 2003,
     "createdAt": {
@@ -2860,8 +2805,8 @@
     "genus": "鋸鍬形蟲屬 Prosopocoilus",
     "commonName": "黑島鋸",
     "scientificName": "inclinatus kuroshimaensis",
-    "captiveRecord": 74,
-    "wildRecord": 78,
+    "captiveRecord": 73.5,
+    "wildRecord": 72,
     "japaneseName": "クロシマノコギリ",
     "year": 2011,
     "createdAt": {
@@ -2881,7 +2826,7 @@
     "captiveRecord": 74,
     "wildRecord": 72.5,
     "japaneseName": "クチノエラブノコギリ",
-    "year": 2017,
+    "year": 2015,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
     },
@@ -2897,9 +2842,9 @@
     "commonName": "八丈鋸",
     "scientificName": "hachijoensis",
     "captiveRecord": 60.7,
-    "wildRecord": 66,
+    "wildRecord": 59.2,
     "japaneseName": "ハチジョウノコギリ",
-    "year": 2005,
+    "year": 2017,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
     },
@@ -2915,9 +2860,9 @@
     "commonName": "吐噶喇鋸(惡石島鋸)",
     "scientificName": "dissimilis elegans",
     "captiveRecord": 76.6,
-    "wildRecord": 81,
+    "wildRecord": 74.2,
     "japaneseName": "トカラノコギリ",
-    "year": 2017,
+    "year": 2005,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
     },
@@ -2933,9 +2878,9 @@
     "commonName": "奄美鋸",
     "scientificName": "dissimilis dissimilis",
     "captiveRecord": 82.1,
-    "wildRecord": 85,
+    "wildRecord": 80.5,
     "japaneseName": "アマミノコギリ",
-    "year": 2016,
+    "year": 2017,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
     },
@@ -2951,7 +2896,7 @@
     "commonName": "德之島鋸",
     "scientificName": "dissimilis makinoi",
     "captiveRecord": 75.8,
-    "wildRecord": 82,
+    "wildRecord": 76.2,
     "japaneseName": "トクノシマノコギリ",
     "year": 2023,
     "createdAt": {
@@ -2969,7 +2914,7 @@
     "commonName": "沖永良部鋸",
     "scientificName": "dissimilis okinoerabuanus",
     "captiveRecord": 69,
-    "wildRecord": 74,
+    "wildRecord": 64.5,
     "japaneseName": "オキノエラブノコギリ",
     "year": 2006,
     "createdAt": {
@@ -2987,7 +2932,7 @@
     "commonName": "沖繩鋸",
     "scientificName": "dissimilis okinawanus",
     "captiveRecord": 75.1,
-    "wildRecord": 79,
+    "wildRecord": 71.7,
     "japaneseName": "オキナワノコギリ",
     "year": 2007,
     "createdAt": {
@@ -3005,7 +2950,7 @@
     "commonName": "久米島鋸",
     "scientificName": "dissimilis kumejimaensis",
     "captiveRecord": 65.9,
-    "wildRecord": 70,
+    "wildRecord": 64.4,
     "japaneseName": "クメジマノコギリ",
     "year": 2001,
     "createdAt": {
@@ -3023,7 +2968,7 @@
     "commonName": "伊平屋鋸",
     "scientificName": "dissimilis hayashii",
     "captiveRecord": 64.3,
-    "wildRecord": 69,
+    "wildRecord": 59.6,
     "japaneseName": "イヘヤノコギリ",
     "year": 2013,
     "createdAt": {
@@ -3041,7 +2986,7 @@
     "commonName": "八重山鋸",
     "scientificName": "pseudodissimilis",
     "captiveRecord": 63.3,
-    "wildRecord": 68,
+    "wildRecord": 63.5,
     "japaneseName": "ヤエヤマノコギリ",
     "year": 2008,
     "createdAt": {
@@ -3096,7 +3041,7 @@
     "scientificName": "spencei mandibularis",
     "captiveRecord": 57.4,
     "wildRecord": 51.7,
-    "japaneseName": "スペンス(mandibularis)",
+    "japaneseName": "スペンス（mandibularis）",
     "year": 2019,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -3114,7 +3059,7 @@
     "scientificName": "spencei spencei",
     "captiveRecord": 57.3,
     "wildRecord": 54.9,
-    "japaneseName": "スペンス(原名亜種)",
+    "japaneseName": "スペンス（原名亜種）",
     "year": 2018,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -3150,7 +3095,7 @@
     "scientificName": "forceps nakamotoi",
     "captiveRecord": 54.3,
     "wildRecord": 47.2,
-    "japaneseName": "フォルケプス（婆羅洲）",
+    "japaneseName": "フォルケプス（ボルネオ）",
     "year": 2012,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -3291,10 +3236,10 @@
     },
     "genus": "前鍬屬 Epidorcus",
     "commonName": "雙基齒前鍬",
-    "scientificName": "bidentatus",
+    "scientificName": "suebuei",
     "captiveRecord": 43.2,
-    "wildRecord": 46,
-    "japaneseName": "ビデンタートゥス",
+    "wildRecord": 41.8,
+    "japaneseName": "スエブエ",
     "year": 2020,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.527Z"
@@ -3365,7 +3310,7 @@
     "commonName": "大衛森氏叉角",
     "scientificName": "davisoni",
     "captiveRecord": 88.2,
-    "wildRecord": 84.2,
+    "wildRecord": 85.5,
     "japaneseName": "ダビソン",
     "year": 2010,
     "createdAt": {
@@ -3383,7 +3328,7 @@
     "commonName": "泰國黑叉角",
     "scientificName": "nigritus",
     "captiveRecord": 85.7,
-    "wildRecord": 80,
+    "wildRecord": 81,
     "japaneseName": "ニグリトゥス",
     "year": 2012,
     "createdAt": {
@@ -3401,7 +3346,7 @@
     "commonName": "橘背叉角",
     "scientificName": "parryi deyrollei",
     "captiveRecord": 87,
-    "wildRecord": 84,
+    "wildRecord": 87,
     "japaneseName": "パリー（deyrollei）",
     "year": 2019,
     "createdAt": {
@@ -3435,10 +3380,10 @@
     },
     "genus": "叉角鍬形蟲屬 Hexarthrius",
     "commonName": "橘背叉角",
-    "scientificName": "parryi paradoxus",
+    "scientificName": "parryi parryi",
     "captiveRecord": 91.7,
     "wildRecord": 93,
-    "japaneseName": "パリー（婆羅洲）",
+    "japaneseName": "パリー（ボルネオ）",
     "year": 2013,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -3453,10 +3398,10 @@
     },
     "genus": "叉角鍬形蟲屬 Hexarthrius",
     "commonName": "橘背叉角",
-    "scientificName": "parryi parryi",
+    "scientificName": "parryi paradoxus",
     "captiveRecord": 92.1,
-    "wildRecord": 94.4,
-    "japaneseName": "パリー（馬來半島・蘇門答臘）",
+    "wildRecord": 96.1,
+    "japaneseName": "パリー（paradoxus）",
     "year": 2017,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -3474,7 +3419,7 @@
     "scientificName": "vitalisi tsukamotoi",
     "captiveRecord": 89.8,
     "wildRecord": 86.9,
-    "japaneseName": "ビタリス(tsukamotoi)",
+    "japaneseName": "ビタリス（tsukamotoi）",
     "year": 2021,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -3491,7 +3436,7 @@
     "commonName": "紅六節叉角",
     "scientificName": "vitalisi vitalisi",
     "captiveRecord": 86.3,
-    "wildRecord": 87.5,
+    "wildRecord": 91.7,
     "japaneseName": "ビタリス（原名亜種）",
     "year": 2011,
     "createdAt": {
@@ -3509,7 +3454,7 @@
     "commonName": "佛氏叉角(紅蓮叉角)",
     "scientificName": "forsteri nyishi",
     "captiveRecord": 90.7,
-    "wildRecord": 82.9,
+    "wildRecord": 86,
     "japaneseName": "フォルスター（nyishi）",
     "year": 2021,
     "createdAt": {
@@ -3527,8 +3472,8 @@
     "commonName": "佛氏叉角(緬甸叉角)",
     "scientificName": "forsteri kiyotamii",
     "captiveRecord": 89,
-    "wildRecord": 87,
-    "japaneseName": "フォルスター（緬甸）",
+    "wildRecord": 88,
+    "japaneseName": "フォルスター（kiyotamii）",
     "year": 2014,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -3545,7 +3490,7 @@
     "commonName": "佛氏叉角(印度叉角)",
     "scientificName": "forsteri forsteri",
     "captiveRecord": 87,
-    "wildRecord": 86,
+    "wildRecord": 86.5,
     "japaneseName": "フォルスター（原名亜種）",
     "year": 2012,
     "createdAt": {
@@ -3563,8 +3508,8 @@
     "commonName": "黑叉角",
     "scientificName": "buqueti",
     "captiveRecord": 86.6,
-    "wildRecord": 88.4,
-    "japaneseName": "ボーリン（バミノルム）",
+    "wildRecord": 84.3,
+    "japaneseName": "ブケット",
     "year": 2014,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -3580,9 +3525,9 @@
     "genus": "叉角鍬形蟲屬 Hexarthrius",
     "commonName": "豪登氏叉角",
     "scientificName": "howdeni",
-    "captiveRecord": 84,
-    "wildRecord": 83,
-    "japaneseName": "ボーリン（原名亜種）",
+    "captiveRecord": 63,
+    "wildRecord": 63,
+    "japaneseName": "ホウデン",
     "year": 2009,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -3597,10 +3542,10 @@
     },
     "genus": "叉角鍬形蟲屬 Hexarthrius",
     "commonName": "保齡氏叉角",
-    "scientificName": "bowringii baminoru",
+    "scientificName": "bowringi baminorum",
     "captiveRecord": 86.3,
-    "wildRecord": 79.1,
-    "japaneseName": "ボーリン（バミノルム）",
+    "wildRecord": 83.5,
+    "japaneseName": "ボーリン（baminorum）",
     "year": 2020,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -3617,7 +3562,7 @@
     "commonName": "保齡氏叉角",
     "scientificName": "bowringi bowringi",
     "captiveRecord": 84,
-    "wildRecord": 83,
+    "wildRecord": 83.5,
     "japaneseName": "ボーリン（原名亜種）",
     "year": 2019,
     "createdAt": {
@@ -3635,8 +3580,8 @@
     "commonName": "巨顎叉角",
     "scientificName": "mandibularis sumatranus",
     "captiveRecord": 111.8,
-    "wildRecord": 118,
-    "japaneseName": "マンディブラリス（蘇門答臘）",
+    "wildRecord": 119.5,
+    "japaneseName": "マンディブラリス（スマトラ）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -3707,8 +3652,8 @@
     "commonName": "犀牛叉角",
     "scientificName": "rhinoceros chaudoiri",
     "captiveRecord": 103,
-    "wildRecord": 109,
-    "japaneseName": "リノケロス（蘇門答臘）",
+    "wildRecord": 108.8,
+    "japaneseName": "リノケロス（スマトラ）",
     "year": 2012,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -3762,7 +3707,7 @@
     "commonName": "布氏鹿角",
     "scientificName": "crenatus boileaui",
     "captiveRecord": 71.2,
-    "wildRecord": 65,
+    "wildRecord": 68.5,
     "japaneseName": "シカ（boileaui）",
     "year": 2023,
     "createdAt": {
@@ -3780,7 +3725,7 @@
     "commonName": "吹拔氏鹿角(印度黃金)",
     "scientificName": "crenatus fukinukii",
     "captiveRecord": 67.6,
-    "wildRecord": 64.5,
+    "wildRecord": 65,
     "japaneseName": "シカ（fukinukii）",
     "year": 2025,
     "createdAt": {
@@ -3834,7 +3779,7 @@
     "commonName": "筒井氏鹿角(寮國黃金)",
     "scientificName": "crenatus tsutsuii",
     "captiveRecord": 72.6,
-    "wildRecord": 72,
+    "wildRecord": 71.9,
     "japaneseName": "シカ（tsutsuii）",
     "year": 2017,
     "createdAt": {
@@ -3853,7 +3798,7 @@
     "scientificName": "crenatus ssp.",
     "captiveRecord": 62.4,
     "wildRecord": 46.6,
-    "japaneseName": "シカ ssp.",
+    "japaneseName": "シカ（海南島）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -3870,8 +3815,8 @@
     "commonName": "紅腿鹿角",
     "scientificName": "crenatus rubrifemoratus",
     "captiveRecord": 60.2,
-    "wildRecord": 55,
-    "japaneseName": "シカ（中国）",
+    "wildRecord": 57,
+    "japaneseName": "シカ（中国 rubrifemoratus）",
     "year": 2007,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -3906,7 +3851,7 @@
     "commonName": "麥氏鹿角(瑪爾鹿角)",
     "scientificName": "maii",
     "captiveRecord": 75.8,
-    "wildRecord": 62.7,
+    "wildRecord": 67.1,
     "japaneseName": "マイ",
     "year": 2023,
     "createdAt": {
@@ -3942,8 +3887,8 @@
     "commonName": "金剛大鹿角",
     "scientificName": "Rhaetus westwoodi kazumiae",
     "captiveRecord": 89,
-    "wildRecord": 82.4,
-    "japaneseName": "ウエストウッドオオ（カズミ）",
+    "wildRecord": 86.3,
+    "japaneseName": "ウエストウッドオオ（kazumiae）",
     "year": 2021,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -4015,7 +3960,7 @@
     "scientificName": "Pseudorhaetus sinicus concolor",
     "captiveRecord": 70,
     "wildRecord": 62.9,
-    "japaneseName": "チュウゴククロツヤ（台灣）",
+    "japaneseName": "チュウゴククロツヤ（台湾）",
     "year": 2024,
     "isTaiwanese": true,
     "createdAt": {
@@ -4031,11 +3976,11 @@
     },
     "genus": "鹿角、金剛鹿角、偽鹿角鍬形蟲等屬 Rhaetulus、Rhaetus、Pseudorhaetus",
     "commonName": "佩洛帝鍬形蟲",
-    "scientificName": "Weinreichinusu perroti",
-    "captiveRecord": 80.3,
-    "wildRecord": 78,
+    "scientificName": "Weinreichius perroti",
+    "captiveRecord": 82.1,
+    "wildRecord": 83,
     "japaneseName": "ペロッティ",
-    "year": 2012,
+    "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
     },
@@ -4051,7 +3996,7 @@
     "commonName": "牧由美子",
     "scientificName": "Yumikoi makii",
     "captiveRecord": 73.2,
-    "wildRecord": 74,
+    "wildRecord": 73.8,
     "japaneseName": "マキ",
     "year": 2011,
     "createdAt": {
@@ -4142,7 +4087,7 @@
     "scientificName": "arrowi nobuhiroi",
     "captiveRecord": 71.7,
     "wildRecord": 72,
-    "japaneseName": "アロー（タイ）",
+    "japaneseName": "アロー（タイ nobuhiroi）",
     "year": 2007,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -4160,7 +4105,7 @@
     "scientificName": "arrowi magdeleinae",
     "captiveRecord": 68.1,
     "wildRecord": 60.5,
-    "japaneseName": "アロー( マクダレイン)",
+    "japaneseName": "アロー（magdeleinae）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -4196,7 +4141,7 @@
     "scientificName": "arrowi lieni",
     "captiveRecord": 78.6,
     "wildRecord": 73,
-    "japaneseName": "アロー（中央越南）",
+    "japaneseName": "アロー（lieni）",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -4211,7 +4156,7 @@
     },
     "genus": "小鍬形蟲類群(大鍬屬) Dorcus",
     "commonName": "雙鉤鍬形蟲",
-    "scientificName": "Miwanus formosanus?",
+    "scientificName": "Miwanus formosanus capricornus",
     "captiveRecord": 44.6,
     "wildRecord": 42.2,
     "japaneseName": "ウスバ（カプリコルヌス）",
@@ -4229,7 +4174,7 @@
     },
     "genus": "小鍬形蟲類群(大鍬屬) Dorcus",
     "commonName": "雙鉤鍬形蟲",
-    "scientificName": "Miwanus formosanus",
+    "scientificName": "Miwanus formosanus formosanus",
     "captiveRecord": 39.4,
     "wildRecord": 37.1,
     "japaneseName": "ウスバ（原名亜種）",
@@ -4266,10 +4211,10 @@
     },
     "genus": "小鍬形蟲類群(大鍬屬) Dorcus",
     "commonName": "艾勒岡托斯刀鍬",
-    "scientificName": "elegantulus",
+    "scientificName": "elegantulus axis",
     "captiveRecord": 32.5,
     "wildRecord": 29.4,
-    "japaneseName": "エレガントゥルス( 蘇門答臘・婆羅洲)",
+    "japaneseName": "エレガントゥルス（axis）",
     "year": 2011,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -4284,7 +4229,7 @@
     },
     "genus": "小鍬形蟲類群(大鍬屬) Dorcus",
     "commonName": "喀欽刀鍬",
-    "scientificName": "katctinensis",
+    "scientificName": "kachinensis",
     "captiveRecord": 57,
     "wildRecord": 57.3,
     "japaneseName": "カチン",
@@ -4341,7 +4286,7 @@
     "scientificName": "sawaii norikoae",
     "captiveRecord": 48.2,
     "wildRecord": 46,
-    "japaneseName": "サワイ（越南）",
+    "japaneseName": "サワイ（ベトナム）",
     "year": 2011,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -4359,7 +4304,7 @@
     "scientificName": "striatipennis davidi",
     "captiveRecord": 41.8,
     "wildRecord": 37.3,
-    "japaneseName": "スジ（中国）",
+    "japaneseName": "スジ（中国 davidi）",
     "year": 2021,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -4411,7 +4356,7 @@
     "genus": "小鍬形蟲類群(大鍬屬) Dorcus",
     "commonName": "瑟梅諾小鍬",
     "scientificName": "semenowi",
-    "captiveRecord": 46.39,
+    "captiveRecord": 46.9,
     "wildRecord": 47,
     "japaneseName": "セメノウ",
     "year": 2025,
@@ -4449,7 +4394,7 @@
     "scientificName": "tanakai",
     "captiveRecord": 49,
     "wildRecord": 44,
-    "japaneseName": "タナカ",
+    "japaneseName": "タナカスジ",
     "year": 2014,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -4464,7 +4409,7 @@
     },
     "genus": "小鍬形蟲類群(大鍬屬) Dorcus",
     "commonName": "〈尚無中文名〉",
-    "scientificName": "dacidis",
+    "scientificName": "davidis",
     "captiveRecord": 36.3,
     "wildRecord": 32,
     "japaneseName": "ダビディス",
@@ -4485,7 +4430,7 @@
     "scientificName": "sinensis sinensis",
     "captiveRecord": 47,
     "wildRecord": 45.9,
-    "japaneseName": "チュウゴク(原名亜種)",
+    "japaneseName": "チュウゴク（原名亜種）",
     "year": 2023,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -4500,10 +4445,10 @@
     },
     "genus": "小鍬形蟲類群(大鍬屬) Dorcus",
     "commonName": "中華刀鍬",
-    "scientificName": "sinensis ?",
+    "scientificName": "sinensis kentai",
     "captiveRecord": 60,
     "wildRecord": 63,
-    "japaneseName": "チュウゴク（越南）",
+    "japaneseName": "チュウゴク（ベトナム kentai）",
     "year": 2007,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -4517,12 +4462,13 @@
       "$oid": "6970831f9485a5a5a2267d4d"
     },
     "genus": "小鍬形蟲類群(大鍬屬) Dorcus",
-    "commonName": "細脊刀鍬",
-    "scientificName": "tenuecostatus",
+    "commonName": "望月",
+    "scientificName": "mochizukii",
     "captiveRecord": 38.5,
     "wildRecord": 38,
-    "japaneseName": "テヌエコスタトゥス(mochizukii)",
+    "japaneseName": "テヌエコスタトゥス（台湾 mochizukii）",
     "year": 2021,
+    "isTaiwanese": true,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
     },
@@ -4629,7 +4575,7 @@
     "scientificName": "haitschunus",
     "captiveRecord": 65.8,
     "wildRecord": 62,
-    "japaneseName": "ハイチュヌス",
+    "japaneseName": "ハイチュ",
     "year": 2023,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -4645,7 +4591,7 @@
     "genus": "小鍬形蟲類群(大鍬屬) Dorcus",
     "commonName": "彎月",
     "scientificName": "bisignatus",
-    "captiveRecord": 41.4,
+    "captiveRecord": 42,
     "wildRecord": 41.5,
     "japaneseName": "ビシグナートゥス",
     "year": 2021,
@@ -4791,7 +4737,7 @@
     "scientificName": "meridionalis",
     "captiveRecord": 49.6,
     "wildRecord": 45.2,
-    "japaneseName": "メリディオナリス",
+    "japaneseName": "メリディオナリススジ",
     "year": 2023,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.528Z"
@@ -4808,7 +4754,7 @@
     "commonName": "刀鍬",
     "scientificName": "yamadai",
     "captiveRecord": 65.8,
-    "wildRecord": 61.5,
+    "wildRecord": 67,
     "japaneseName": "ヤマダ",
     "year": 2024,
     "isTaiwanese": true,
@@ -4845,7 +4791,7 @@
     "commonName": "比西納小鍬",
     "scientificName": "rufonotatus rufonotatus",
     "captiveRecord": 41.8,
-    "wildRecord": 38,
+    "wildRecord": 38.2,
     "japaneseName": "ルフォノタトゥス（原名亜種）",
     "year": 2020,
     "createdAt": {
@@ -4935,7 +4881,7 @@
     "commonName": "日本小鍬",
     "scientificName": "rectus rectus",
     "captiveRecord": 58.1,
-    "wildRecord": 54.6,
+    "wildRecord": 54.4,
     "japaneseName": "コクワ",
     "year": 2016,
     "createdAt": {
@@ -5026,7 +4972,7 @@
     "scientificName": "antaeus miyashitai",
     "captiveRecord": 86.8,
     "wildRecord": 85.5,
-    "japaneseName": "アンタエウス（中南半島）",
+    "japaneseName": "アンタエウス（インドシナ）",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5044,7 +4990,7 @@
     "scientificName": "antaeus datei",
     "captiveRecord": 83.2,
     "wildRecord": 79,
-    "japaneseName": "アンタエウス（馬來半島）",
+    "japaneseName": "アンタエウス（マレー）",
     "year": 2015,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5152,7 +5098,7 @@
     "scientificName": "grandis formosanus",
     "captiveRecord": 84.3,
     "wildRecord": 78.3,
-    "japaneseName": "グランディス（台灣オオ）",
+    "japaneseName": "グランディス（タイワンオオ）",
     "year": 2012,
     "isTaiwanese": true,
     "createdAt": {
@@ -5168,11 +5114,12 @@
     },
     "genus": "大鍬(大鍬屬) Dorcus",
     "commonName": "彎角",
-    "scientificName": "curvidens ?",
+    "scientificName": "curvidens curvidens",
     "captiveRecord": 80.9,
     "wildRecord": 77,
-    "japaneseName": "クルビデンス（中南半島）",
+    "japaneseName": "クルヴィデンス（インドシナ）",
     "year": 2024,
+    "locality": "中南半島",
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
     },
@@ -5189,14 +5136,15 @@
     "scientificName": "curvidens curvidens",
     "captiveRecord": 85.6,
     "wildRecord": 81.5,
-    "japaneseName": "クルビデンス（原名亜種）",
+    "japaneseName": "クルヴィデンス（ヒマラヤ）",
     "year": 2002,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
     },
     "updatedAt": {
       "$date": "2026-01-21T07:41:19.529Z"
-    }
+    },
+    "locality": "喜馬拉雅"
   },
   {
     "_id": {
@@ -5207,7 +5155,7 @@
     "scientificName": "curvidens babai",
     "captiveRecord": 81,
     "wildRecord": 75.4,
-    "japaneseName": "クルビデンス（南越南）",
+    "japaneseName": "クルヴィデンス（ベトナム南部 babai）",
     "year": 2014,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5255,24 +5203,6 @@
   },
   {
     "_id": {
-      "$oid": "6970831f9485a5a5a2267d76"
-    },
-    "genus": "大鍬(大鍬屬) Dorcus",
-    "commonName": "裂紋大鍬",
-    "scientificName": "suturalis",
-    "captiveRecord": 53.1,
-    "wildRecord": 50,
-    "japaneseName": "スツラリス",
-    "year": 2011,
-    "createdAt": {
-      "$date": "2026-01-21T07:41:19.529Z"
-    },
-    "updatedAt": {
-      "$date": "2026-01-21T07:41:19.529Z"
-    }
-  },
-  {
-    "_id": {
       "$oid": "6970831f9485a5a5a2267d77"
     },
     "genus": "大鍬(大鍬屬) Dorcus",
@@ -5298,7 +5228,7 @@
     "scientificName": "yaksha gracilicornis",
     "captiveRecord": 52.3,
     "wildRecord": 48,
-    "japaneseName": "ツノボソ（中國四川東部〜台灣）",
+    "japaneseName": "ツノボソ（中国四川東部～台湾）",
     "year": 2017,
     "isTaiwanese": true,
     "createdAt": {
@@ -5371,7 +5301,7 @@
     "scientificName": "ritsemae kazuhisai",
     "captiveRecord": 74.5,
     "wildRecord": 71.1,
-    "japaneseName": "パリー（爪哇島西部）",
+    "japaneseName": "パリー（ジャワ島西部）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5389,7 +5319,7 @@
     "scientificName": "ritsemae astridae",
     "captiveRecord": 76.5,
     "wildRecord": 74.4,
-    "japaneseName": "パリー（蘇拉威西島中部）",
+    "japaneseName": "パリー（スラウェシ島中部）",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5407,7 +5337,7 @@
     "scientificName": "ritsemae ungaiae",
     "captiveRecord": 65.6,
     "wildRecord": 59.8,
-    "japaneseName": "パリー（蘇拉威西島南部）",
+    "japaneseName": "パリー（スラウェシ島南部）",
     "year": 2007,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5425,7 +5355,7 @@
     "scientificName": "ritsemae curvus",
     "captiveRecord": 75,
     "wildRecord": 71.7,
-    "japaneseName": "パリー（巴拉望）",
+    "japaneseName": "パリー（パラワン島）",
     "year": 2012,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5443,7 +5373,7 @@
     "scientificName": "ritsemae setsuroi",
     "captiveRecord": 79,
     "wildRecord": 75.3,
-    "japaneseName": "パリー（民答那峨島）",
+    "japaneseName": "パリー（ミンダナオ島）",
     "year": 2005,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5459,10 +5389,10 @@
     "genus": "大鍬(大鍬屬) Dorcus",
     "commonName": "派瑞大鍬",
     "scientificName": "ritsemae ritsemae",
-    "captiveRecord": 73.6,
-    "wildRecord": 73,
+    "captiveRecord": 74.5,
+    "wildRecord": 75.7,
     "japaneseName": "パリー（原名亜種）",
-    "year": 2024,
+    "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
     },
@@ -5531,7 +5461,7 @@
     "genus": "大鍬(大鍬屬) Dorcus",
     "commonName": "日本鏽鍬",
     "scientificName": "japonicus",
-    "captiveRecord": 28.3,
+    "captiveRecord": 29,
     "wildRecord": 26.2,
     "japaneseName": "ヤマトサビ",
     "year": 2024,
@@ -5623,7 +5553,7 @@
     "scientificName": "titanus typhoniformis",
     "captiveRecord": 90.3,
     "wildRecord": 80,
-    "japaneseName": "ヒラタ（ウンナンtyphoniformis）",
+    "japaneseName": "ヒラタ（ウンナン typhoniformis）",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5637,12 +5567,13 @@
       "$oid": "6970831f9485a5a5a2267d8c"
     },
     "genus": "扁鍬(大鍬屬) Dorcus",
-    "commonName": "南洋巨扁(薩馬島)",
-    "scientificName": "titanus ?",
+    "commonName": "帝王扁(薩馬島)",
+    "scientificName": "titanus imperialis",
     "captiveRecord": 105.7,
     "wildRecord": 98.5,
     "japaneseName": "ヒラタ（サマール）",
     "year": 2018,
+    "locality": "薩馬島",
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
     },
@@ -5659,7 +5590,7 @@
     "scientificName": "titanus yasuokai",
     "captiveRecord": 110.3,
     "wildRecord": 102.5,
-    "japaneseName": "ヒラタ（蘇門答臘）",
+    "japaneseName": "ヒラタ（スマトラ）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5677,7 +5608,7 @@
     "scientificName": "titanus typhon",
     "captiveRecord": 107.3,
     "wildRecord": 102,
-    "japaneseName": "ヒラタ（蘇拉威西）",
+    "japaneseName": "ヒラタ（スラウェシ）",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5695,7 +5626,7 @@
     "scientificName": "titanus sika",
     "captiveRecord": 79.5,
     "wildRecord": 71.2,
-    "japaneseName": "ヒラタ（台灣）",
+    "japaneseName": "ヒラタ（タイワン）",
     "year": 2023,
     "isTaiwanese": true,
     "createdAt": {
@@ -5713,8 +5644,8 @@
     "commonName": "中國扁",
     "scientificName": "titanus platymelus",
     "captiveRecord": 86.6,
-    "wildRecord": 86,
-    "japaneseName": "ヒラタ（チュウゴクplatymelus）",
+    "wildRecord": 87.1,
+    "japaneseName": "ヒラタ（チュウゴク platymelus）",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5750,7 +5681,7 @@
     "scientificName": "titanus fasolt",
     "captiveRecord": 87,
     "wildRecord": 84,
-    "japaneseName": "ヒラタ（ファソルトfasolt）",
+    "japaneseName": "ヒラタ（ファソルト fasolt）",
     "year": 2006,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5768,7 +5699,7 @@
     "scientificName": "titanus imperialis",
     "captiveRecord": 109,
     "wildRecord": 105,
-    "japaneseName": "ヒラタ（菲律賓）",
+    "japaneseName": "ヒラタ（フィリピン）",
     "year": 2019,
     "locality": "菲律賓北、中部",
     "createdAt": {
@@ -5787,7 +5718,7 @@
     "scientificName": "titanus fafner",
     "captiveRecord": 90.1,
     "wildRecord": 90,
-    "japaneseName": "ヒラタ（越南fafner）",
+    "japaneseName": "ヒラタ（ベトナム fafner）",
     "year": 2011,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5824,7 +5755,7 @@
     "scientificName": "titanus nobuyukii",
     "captiveRecord": 95.4,
     "wildRecord": 98,
-    "japaneseName": "ヒラタ（馬來半島・婆羅洲）",
+    "japaneseName": "ヒラタ（マレー・ボルネオ）",
     "year": 2016,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5842,7 +5773,7 @@
     "scientificName": "titanus mindanaoensis",
     "captiveRecord": 100.8,
     "wildRecord": 103,
-    "japaneseName": "ヒラタ（民答那峨）",
+    "japaneseName": "ヒラタ（ミンダナオ）",
     "year": 2007,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
@@ -5915,7 +5846,7 @@
     "captiveRecord": 87.4,
     "wildRecord": 84,
     "japaneseName": "ツシマヒラタ",
-    "year": 2015,
+    "year": 2018,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.529Z"
     },
@@ -6289,10 +6220,10 @@
     },
     "genus": "扁鍬(大鍬屬) Dorcus",
     "commonName": "金牛扁",
-    "scientificName": "taurus gyphaetus",
+    "scientificName": "taurus gypaetus",
     "captiveRecord": 63.4,
     "wildRecord": 63.4,
-    "japaneseName": "タウルス（爪哇）",
+    "japaneseName": "タウルス（ジャワ）",
     "year": 2017,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -6346,7 +6277,7 @@
     "scientificName": "taurus cribriceps",
     "captiveRecord": 69.7,
     "wildRecord": 60.4,
-    "japaneseName": "タウルス( 菲律賓)",
+    "japaneseName": "タウルス（フィリピン）",
     "year": 2022,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -6364,7 +6295,7 @@
     "scientificName": "taurus subtaurus",
     "captiveRecord": 71,
     "wildRecord": 65.3,
-    "japaneseName": "タウルス（婆羅洲）",
+    "japaneseName": "タウルス（ボルネオ）",
     "year": 2020,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -6433,10 +6364,10 @@
     },
     "genus": "扁鍬(大鍬屬) Dorcus",
     "commonName": "朝鮮細齒扁",
-    "scientificName": "consentaneus",
+    "scientificName": "consentaneus consentaneus",
     "captiveRecord": 60.6,
     "wildRecord": 53.9,
-    "japaneseName": "チョウセン（日本）",
+    "japaneseName": "チョウセンヒラタ",
     "year": 2023,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -6454,7 +6385,7 @@
     "scientificName": "consentaneus akahorii",
     "captiveRecord": 60.4,
     "wildRecord": 62.4,
-    "japaneseName": "チョウセン（中國）",
+    "japaneseName": "チョウセン（中国）",
     "year": 2008,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -6487,7 +6418,7 @@
     },
     "genus": "扁鍬(大鍬屬) Dorcus",
     "commonName": "華東阿鍬(天目星鍬甲)",
-    "scientificName": "Aulaostehus tianmuxing",
+    "scientificName": "Aulacostethus tianmuxing",
     "captiveRecord": 47.7,
     "wildRecord": 47,
     "japaneseName": "ティアンムニセヒラタ",
@@ -6597,7 +6528,7 @@
     "commonName": "阿爾法克扁",
     "scientificName": "arfakianus",
     "captiveRecord": 60.3,
-    "wildRecord": 59.4,
+    "wildRecord": 62,
     "japaneseName": "パプア",
     "year": 2003,
     "createdAt": {
@@ -6670,7 +6601,7 @@
     "scientificName": "hyperion ssp.",
     "captiveRecord": 69.4,
     "wildRecord": 63,
-    "japaneseName": "ヒペリオン（アルナーチャル）",
+    "japaneseName": "ヒペリオン（アルナーチャル中西部）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -6688,7 +6619,7 @@
     "scientificName": "meeki delislei",
     "captiveRecord": 63.7,
     "wildRecord": 59.5,
-    "japaneseName": "ミーク(delislei)",
+    "japaneseName": "ミーク（delislei）",
     "year": 2021,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -6794,11 +6725,11 @@
       "$oid": "6970831f9485a5a5a2267dcc"
     },
     "genus": "扁鍬(大鍬屬) Dorcus",
-    "commonName": "條背大鍬",
-    "scientificName": "reichei ?",
+    "commonName": "擬瑞奇大鍬",
+    "scientificName": "cervulus",
     "captiveRecord": 54,
-    "wildRecord": 53.1,
-    "japaneseName": "ライヒ（※ケルヴルス）",
+    "wildRecord": 55.5,
+    "japaneseName": "ケルヴルス",
     "year": 2021,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -6812,12 +6743,12 @@
       "$oid": "6970831f9485a5a5a2267dcd"
     },
     "genus": "扁鍬(大鍬屬) Dorcus",
-    "commonName": "條背大鍬",
-    "scientificName": "reichei hansteini",
-    "captiveRecord": 56.7,
+    "commonName": "蘇門達臘條背",
+    "scientificName": "hansteini hansteini",
+    "captiveRecord": 57.7,
     "wildRecord": 53.1,
-    "japaneseName": "ライヒ（※ハンステイン蘇門答臘）",
-    "year": 2005,
+    "japaneseName": "ハンステイン（原名亜種）",
+    "year": 2022,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
     },
@@ -6830,11 +6761,11 @@
       "$oid": "6970831f9485a5a5a2267dce"
     },
     "genus": "扁鍬(大鍬屬) Dorcus",
-    "commonName": "條背大鍬",
-    "scientificName": "reichei prosti",
+    "commonName": "馬來條背",
+    "scientificName": "hansteini prosti",
     "captiveRecord": 65.2,
     "wildRecord": 66.4,
-    "japaneseName": "ライヒ（※ハンステイン    prosti）",
+    "japaneseName": "ハンステイン（prosti）",
     "year": 2022,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -6849,10 +6780,10 @@
     },
     "genus": "扁鍬(大鍬屬) Dorcus",
     "commonName": "條背大鍬",
-    "scientificName": "reichei clypeatus",
+    "scientificName": "hirticornis clypeatus",
     "captiveRecord": 47,
     "wildRecord": 42,
-    "japaneseName": "ライヒ（※ヒルティコルニス台灣）",
+    "japaneseName": "ヒルティコルニス（台湾）",
     "year": 2023,
     "isTaiwanese": true,
     "createdAt": {
@@ -6871,7 +6802,7 @@
     "scientificName": "pemakoi",
     "captiveRecord": 58.2,
     "wildRecord": 58.1,
-    "japaneseName": "ベマコ",
+    "japaneseName": "ペマコ",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -6886,10 +6817,10 @@
     },
     "genus": "扁鍬(大鍬屬) Dorcus",
     "commonName": "滇越大鍬",
-    "scientificName": "laevidorsis",
+    "scientificName": "laevidorsis ohtai",
     "captiveRecord": 74.8,
     "wildRecord": 73,
-    "japaneseName": "ラエビドルシス",
+    "japaneseName": "ラエヴィドルシス（カオバン）",
     "year": 2015,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -6925,7 +6856,7 @@
     "scientificName": "rama",
     "captiveRecord": 79,
     "wildRecord": 78,
-    "japaneseName": "拉馬",
+    "japaneseName": "ラマ",
     "year": 2012,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -7012,9 +6943,9 @@
     },
     "genus": "豔鍬屬 Odontolabis",
     "commonName": "卡斯特豔",
-    "scientificName": "castelnaudi",
+    "scientificName": "castelnaudi castelnaudi",
     "captiveRecord": 85.3,
-    "wildRecord": 94,
+    "wildRecord": 95,
     "japaneseName": "カステルナウ（原名亜種）",
     "year": 2023,
     "createdAt": {
@@ -7030,9 +6961,9 @@
     },
     "genus": "豔鍬屬 Odontolabis",
     "commonName": "哥吉拉",
-    "scientificName": "gazella",
+    "scientificName": "gazella gazella",
     "captiveRecord": 70.5,
-    "wildRecord": 65.1,
+    "wildRecord": 71.5,
     "japaneseName": "ガゼラ（原名亜種）",
     "year": 2009,
     "createdAt": {
@@ -7050,27 +6981,9 @@
     "commonName": "卡美拉豔",
     "scientificName": "camela",
     "captiveRecord": 67.9,
-    "wildRecord": 57.4,
+    "wildRecord": 67.1,
     "japaneseName": "カメラ",
     "year": 2025,
-    "createdAt": {
-      "$date": "2026-01-21T07:41:19.530Z"
-    },
-    "updatedAt": {
-      "$date": "2026-01-21T07:41:19.530Z"
-    }
-  },
-  {
-    "_id": {
-      "$oid": "6970831f9485a5a5a2267ddb"
-    },
-    "genus": "豔鍬屬 Odontolabis",
-    "commonName": "紅邊豔",
-    "scientificName": "cuvera fallaciosa",
-    "captiveRecord": 87.4,
-    "wildRecord": 92.7,
-    "japaneseName": "クベラ（fallaciosa）",
-    "year": 2017,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
     },
@@ -7084,10 +6997,10 @@
     },
     "genus": "豔鍬屬 Odontolabis",
     "commonName": "紅邊豔",
-    "scientificName": "alticola",
+    "scientificName": "cuvera alticola",
     "captiveRecord": 83.5,
     "wildRecord": 88,
-    "japaneseName": "クヴェラ(alticola)",
+    "japaneseName": "クヴェラ（alticola）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -7103,10 +7016,10 @@
     "genus": "豔鍬屬 Odontolabis",
     "commonName": "紅邊豔",
     "scientificName": "cuvera sinensis",
-    "captiveRecord": 83.5,
+    "captiveRecord": 87.4,
     "wildRecord": 80.9,
-    "japaneseName": "クベラ(sinensis)",
-    "year": 2023,
+    "japaneseName": "クヴェラ（sinensis）",
+    "year": 2017,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
     },
@@ -7122,8 +7035,8 @@
     "commonName": "紅邊豔",
     "scientificName": "cuvera cuvera",
     "captiveRecord": 77.6,
-    "wildRecord": 76.2,
-    "japaneseName": "クベラ（原名亜種）",
+    "wildRecord": 80,
+    "japaneseName": "クヴェラ（原名亜種）",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -7176,8 +7089,8 @@
     "commonName": "鬼豔鍬形蟲",
     "scientificName": "siva parryi",
     "captiveRecord": 95.5,
-    "wildRecord": 90,
-    "japaneseName": "シバ（台灣）",
+    "wildRecord": 90.6,
+    "japaneseName": "シバ（台湾）",
     "year": 2023,
     "isTaiwanese": true,
     "createdAt": {
@@ -7213,7 +7126,7 @@
     "commonName": "史提芬斯豔",
     "scientificName": "stevensi stevensi",
     "captiveRecord": 84.4,
-    "wildRecord": 91.4,
+    "wildRecord": 93,
     "japaneseName": "スティーブンス（原名亜種）",
     "year": 2017,
     "createdAt": {
@@ -7231,7 +7144,7 @@
     "commonName": "毛鬼豔",
     "scientificName": "striata",
     "captiveRecord": 52.6,
-    "wildRecord": 53,
+    "wildRecord": 55,
     "japaneseName": "ストリアータ",
     "year": 2021,
     "createdAt": {
@@ -7249,7 +7162,7 @@
     "commonName": "絢麗豔",
     "scientificName": "spectabilis",
     "captiveRecord": 81.4,
-    "wildRecord": 82,
+    "wildRecord": 83,
     "japaneseName": "スペクタビリス",
     "year": 2024,
     "createdAt": {
@@ -7286,7 +7199,7 @@
     "scientificName": "dalmanni intermedia",
     "captiveRecord": 106.2,
     "wildRecord": 107,
-    "japaneseName": "ダールマン（インターメディア）",
+    "japaneseName": "ダールマン（intermedia）",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -7303,8 +7216,8 @@
     "commonName": "達爾曼",
     "scientificName": "dalmanni celebensis",
     "captiveRecord": 93.7,
-    "wildRecord": 89.3,
-    "japaneseName": "ダールマン（セレベンシス）",
+    "wildRecord": 93,
+    "japaneseName": "ダールマン（celebensis）",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -7321,9 +7234,9 @@
     "commonName": "達爾曼",
     "scientificName": "dalmanni rudicae",
     "captiveRecord": 91.3,
-    "wildRecord": 78.8,
-    "japaneseName": "ダールマン（ルディカ）",
-    "year": 2021,
+    "wildRecord": 88,
+    "japaneseName": "ダールマン（rudicae）",
+    "year": 2023,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
     },
@@ -7339,7 +7252,7 @@
     "commonName": "德雷塞爾豔",
     "scientificName": "delesserti",
     "captiveRecord": 88.6,
-    "wildRecord": 81.5,
+    "wildRecord": 85,
     "japaneseName": "デレッセル",
     "year": 2008,
     "createdAt": {
@@ -7357,8 +7270,8 @@
     "commonName": "菲夢力士",
     "scientificName": "femoralis waterstradti",
     "captiveRecord": 91.9,
-    "wildRecord": 95.9,
-    "japaneseName": "フェモラリス（婆羅洲）",
+    "wildRecord": 99,
+    "japaneseName": "フェモラリス（ボルネオ）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -7375,7 +7288,7 @@
     "commonName": "菲夢力士",
     "scientificName": "femoralis femoralis",
     "captiveRecord": 92.2,
-    "wildRecord": 93.2,
+    "wildRecord": 94.5,
     "japaneseName": "フェモラリス（原名亜種）",
     "year": 2022,
     "createdAt": {
@@ -7411,7 +7324,7 @@
     "commonName": "平齒艷",
     "scientificName": "platynota coomani",
     "captiveRecord": 46.4,
-    "wildRecord": 45.3,
+    "wildRecord": 49,
     "japaneseName": "プラティノータ（coomani）",
     "year": 2017,
     "createdAt": {
@@ -7430,7 +7343,7 @@
     "scientificName": "platynota platynota",
     "captiveRecord": 46,
     "wildRecord": 42.1,
-    "japaneseName": "プラティノータ(原名亞種)",
+    "japaneseName": "プラティノータ（原名亜種）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -7483,8 +7396,8 @@
     "commonName": "南印度華斯卡拉豔",
     "scientificName": "versicolor",
     "captiveRecord": 77.6,
-    "wildRecord": 76.4,
-    "japaneseName": "ベルシコロール",
+    "wildRecord": 78.6,
+    "japaneseName": "ヴェルシコロール",
     "year": 2010,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -7499,11 +7412,11 @@
     },
     "genus": "豔鍬屬 Odontolabis",
     "commonName": "瓦連哈文",
-    "scientificName": "vollenhoveniti",
+    "scientificName": "vollenhovii",
     "captiveRecord": 78,
     "wildRecord": 86,
-    "japaneseName": "ボーレンホーベン",
-    "year": 2016,
+    "japaneseName": "ヴォーレンホーヴェン",
+    "year": 2021,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
     },
@@ -7537,8 +7450,8 @@
     "commonName": "麥可迪",
     "scientificName": "mouhoti elegans",
     "captiveRecord": 79.8,
-    "wildRecord": 75.4,
-    "japaneseName": "モウホ（エレガンス）",
+    "wildRecord": 79.3,
+    "japaneseName": "モウホ（elegans）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -7555,7 +7468,7 @@
     "commonName": "麥可迪",
     "scientificName": "mouhoti mouhoti",
     "captiveRecord": 84.2,
-    "wildRecord": 74.3,
+    "wildRecord": 75.7,
     "japaneseName": "モウホ（原名亜種）",
     "year": 2013,
     "createdAt": {
@@ -7573,8 +7486,8 @@
     "commonName": "拉可達爾",
     "scientificName": "lacordairei",
     "captiveRecord": 88.5,
-    "wildRecord": 90,
-    "japaneseName": "ラコダール",
+    "wildRecord": 90.3,
+    "japaneseName": "ラコルダール",
     "year": 2020,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -7609,8 +7522,8 @@
     "commonName": "路德金豔",
     "scientificName": "ludekingi",
     "captiveRecord": 81.3,
-    "wildRecord": 74.6,
-    "japaneseName": "ルデキン",
+    "wildRecord": 81,
+    "japaneseName": "ルディキン",
     "year": 2010,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.530Z"
@@ -7627,7 +7540,7 @@
     "commonName": "華拉斯托尼豔",
     "scientificName": "wollastoni",
     "captiveRecord": 78.7,
-    "wildRecord": 79.1,
+    "wildRecord": 81.5,
     "japaneseName": "ワラストン",
     "year": 2013,
     "createdAt": {
@@ -7701,7 +7614,7 @@
     "scientificName": "doro doro",
     "captiveRecord": 46.1,
     "wildRecord": 42.1,
-    "japaneseName": "ドロ(原名亞種)",
+    "japaneseName": "ドロ（原名亜種）",
     "year": 2019,
     "isTaiwanese": true,
     "createdAt": {
@@ -7794,7 +7707,7 @@
     "scientificName": "maximus vendli",
     "captiveRecord": 68.1,
     "wildRecord": 66.7,
-    "japaneseName": "マキシムス（台灣）",
+    "japaneseName": "マキシムス（台湾）",
     "year": 2025,
     "isTaiwanese": true,
     "createdAt": {
@@ -7847,7 +7760,7 @@
     },
     "genus": "圓翅鍬屬 Neolucanus",
     "commonName": "拉提克斯圓翅",
-    "scientificName": "laticolis",
+    "scientificName": "laticollis",
     "captiveRecord": 39,
     "wildRecord": 38,
     "japaneseName": "ラティコリス",
@@ -7883,7 +7796,7 @@
     },
     "genus": "圓翅鍬屬 Neolucanus",
     "commonName": "奄美圓翅",
-    "scientificName": "progenetivus",
+    "scientificName": "protogenetivus",
     "captiveRecord": 69.9,
     "wildRecord": 65.9,
     "japaneseName": "アマミマルバネ",
@@ -7919,7 +7832,7 @@
     },
     "genus": "圓翅鍬屬 Neolucanus",
     "commonName": "八重山圓翅",
-    "scientificName": "insulicola",
+    "scientificName": "insulicola insulicola",
     "captiveRecord": 68.4,
     "wildRecord": 69.6,
     "japaneseName": "ヤエヤママルバネ",
@@ -7958,7 +7871,7 @@
     "scientificName": "maedai",
     "captiveRecord": 70.8,
     "wildRecord": 73,
-    "japaneseName": "マエダマルバネ",
+    "japaneseName": "マエダ",
     "year": 2011,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
@@ -8137,7 +8050,7 @@
     "commonName": "紅鹿深山",
     "scientificName": "elaphus",
     "captiveRecord": 67.2,
-    "wildRecord": 63.3,
+    "wildRecord": 65,
     "japaneseName": "エラフス",
     "year": 2009,
     "createdAt": {
@@ -8171,11 +8084,11 @@
     },
     "genus": "深山屬 Lucanus",
     "commonName": "康塔深山",
-    "scientificName": "cantori",
-    "captiveRecord": 71.8,
+    "scientificName": "cantori cantori",
+    "captiveRecord": 69.5,
     "wildRecord": 90,
     "japaneseName": "カンター（原名亜種）",
-    "year": 2024,
+    "year": 2022,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
     },
@@ -8210,7 +8123,7 @@
     "scientificName": "kraatzi giangae",
     "captiveRecord": 62.7,
     "wildRecord": 71,
-    "japaneseName": "クラーツ（越南）",
+    "japaneseName": "クラーツ（ベトナム）",
     "year": 2013,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
@@ -8226,10 +8139,10 @@
     "genus": "深山屬 Lucanus",
     "commonName": "卡拉斯深山",
     "scientificName": "kraatzi kraatzi",
-    "captiveRecord": 69,
+    "captiveRecord": 71.8,
     "wildRecord": 69.5,
     "japaneseName": "クラーツ（原名亜種）",
-    "year": 2020,
+    "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
     },
@@ -8265,7 +8178,7 @@
     "scientificName": "kanoi piceus",
     "captiveRecord": 57.1,
     "wildRecord": 57,
-    "japaneseName": "クリイロ( 台湾北部)",
+    "japaneseName": "クリイロ（台湾北部）",
     "year": 2021,
     "isTaiwanese": true,
     "createdAt": {
@@ -8281,10 +8194,10 @@
     },
     "genus": "深山屬 Lucanus",
     "commonName": "黑腳深山",
-    "scientificName": "kanoi ogakii (Southern)",
+    "scientificName": "ogakii chuyunshanus",
     "captiveRecord": 53.4,
-    "wildRecord": 43,
-    "japaneseName": "クロアシ(台灣南部)",
+    "wildRecord": 46,
+    "japaneseName": "クロアシ（台湾南部）",
     "year": 2022,
     "isTaiwanese": true,
     "createdAt": {
@@ -8300,10 +8213,10 @@
     },
     "genus": "深山屬 Lucanus",
     "commonName": "黑腳深山",
-    "scientificName": "kanoi ogakii (Eastern)",
+    "scientificName": "ogakii ogakii",
     "captiveRecord": 52.3,
     "wildRecord": 46,
-    "japaneseName": "クロアシ(原名亞種)",
+    "japaneseName": "クロアシ（原名亜種）",
     "year": 2025,
     "isTaiwanese": true,
     "createdAt": {
@@ -8337,7 +8250,7 @@
     },
     "genus": "深山屬 Lucanus",
     "commonName": "四川深山",
-    "scientificName": "szetschuanics",
+    "scientificName": "szetschuanicus",
     "captiveRecord": 50.3,
     "wildRecord": 54,
     "japaneseName": "シセン",
@@ -8355,7 +8268,7 @@
     },
     "genus": "深山屬 Lucanus",
     "commonName": "些利吉斯深山",
-    "scientificName": "sericeus",
+    "scientificName": "sericeus sericeus",
     "captiveRecord": 74.5,
     "wildRecord": 79.5,
     "japaneseName": "セリケウス（原名亜種）",
@@ -8428,7 +8341,7 @@
     },
     "genus": "深山屬 Lucanus",
     "commonName": "高砂深山",
-    "scientificName": "maculifemoratus taiwanu",
+    "scientificName": "maculifemoratus taiwanus",
     "captiveRecord": 89.8,
     "wildRecord": 87,
     "japaneseName": "タカサゴ",
@@ -8451,7 +8364,7 @@
     "captiveRecord": 68.7,
     "wildRecord": 70,
     "japaneseName": "イズミヤマ",
-    "year": 2015,
+    "year": 2016,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
     },
@@ -8522,7 +8435,7 @@
     "scientificName": "tibetanus katsurai",
     "captiveRecord": 80.9,
     "wildRecord": 80.7,
-    "japaneseName": "チベット（越南）",
+    "japaneseName": "チベット（ベトナム）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
@@ -8540,7 +8453,7 @@
     "scientificName": "tibetanus isakii",
     "captiveRecord": 73.4,
     "wildRecord": 80,
-    "japaneseName": "チベット（緬甸）",
+    "japaneseName": "チベット（ミャンマー）",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
@@ -8576,7 +8489,7 @@
     "scientificName": "delavayi",
     "captiveRecord": 53.3,
     "wildRecord": 55,
-    "japaneseName": "デラバイ",
+    "japaneseName": "デラヴァイ",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
@@ -8609,7 +8522,7 @@
     },
     "genus": "深山屬 Lucanus",
     "commonName": "提多拉奧頓深山",
-    "scientificName": "tetraodon ?",
+    "scientificName": "tetraodon sicilianus",
     "captiveRecord": 52.3,
     "wildRecord": 44,
     "japaneseName": "テトラオドン（シチリア）",
@@ -8630,7 +8543,7 @@
     "scientificName": "tetraodon provincialis",
     "captiveRecord": 54.8,
     "wildRecord": 50,
-    "japaneseName": "テトラオドン（南法）",
+    "japaneseName": "テトラオドン（フランス南部）",
     "year": 2012,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
@@ -8648,7 +8561,7 @@
     "scientificName": "tetraodon tetraodon",
     "captiveRecord": 45.7,
     "wildRecord": 52,
-    "japaneseName": "テトラオドン(原名亞種)",
+    "japaneseName": "テトラオドン（原名亜種）",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
@@ -8700,10 +8613,10 @@
     "genus": "深山屬 Lucanus",
     "commonName": "雅深山",
     "scientificName": "nobilis",
-    "captiveRecord": 68,
+    "captiveRecord": 55.7,
     "wildRecord": 69.8,
     "japaneseName": "ノビリス",
-    "year": 2023,
+    "year": 2020,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
     },
@@ -8792,7 +8705,7 @@
     "scientificName": "victorius",
     "captiveRecord": 70.3,
     "wildRecord": 66.5,
-    "japaneseName": "ビクトリウス",
+    "japaneseName": "ヴィクトリウス",
     "year": 2024,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
@@ -8810,7 +8723,7 @@
     "scientificName": "vitalisi",
     "captiveRecord": 74.6,
     "wildRecord": 81.4,
-    "japaneseName": "ビタリス",
+    "japaneseName": "ヴィタリス",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
@@ -8825,7 +8738,7 @@
     },
     "genus": "深山屬 Lucanus",
     "commonName": "姬深山",
-    "scientificName": "swinhoei",
+    "scientificName": "swinhoei swinhoei",
     "captiveRecord": 57.4,
     "wildRecord": 54,
     "japaneseName": "ヒメ（原名亜種）",
@@ -8843,10 +8756,10 @@
     },
     "genus": "深山屬 Lucanus",
     "commonName": "姬深山",
-    "scientificName": "swinhoei ssp.",
+    "scientificName": "swinhoei continentalis",
     "captiveRecord": 54.5,
     "wildRecord": 50,
-    "japaneseName": "ヒメ（中國亜種）",
+    "japaneseName": "ヒメ（中国亜種）",
     "year": 2024,
     "isTaiwanese": true,
     "createdAt": {
@@ -8948,32 +8861,14 @@
   },
   {
     "_id": {
-      "$oid": "6970831f9485a5a5a2267e44"
-    },
-    "genus": "深山屬 Lucanus",
-    "commonName": "佛瑞深山",
-    "scientificName": "fryi",
-    "captiveRecord": 72.2,
-    "wildRecord": 76,
-    "japaneseName": "フライ",
-    "year": 2014,
-    "createdAt": {
-      "$date": "2026-01-21T07:41:19.531Z"
-    },
-    "updatedAt": {
-      "$date": "2026-01-21T07:41:19.531Z"
-    }
-  },
-  {
-    "_id": {
       "$oid": "6970831f9485a5a5a2267e45"
     },
     "genus": "深山屬 Lucanus",
     "commonName": "佛瑞深山",
-    "scientificName": "fryi ?",
+    "scientificName": "fryi",
     "captiveRecord": 76.8,
     "wildRecord": 80.8,
-    "japaneseName": "フライ（アルナーチャル）",
+    "japaneseName": "フライ",
     "year": 2016,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
@@ -9168,7 +9063,7 @@
     },
     "genus": "深山屬 Lucanus",
     "commonName": "歐洲深山",
-    "scientificName": "cervs judaicus",
+    "scientificName": "cervus judaicus",
     "captiveRecord": 104.8,
     "wildRecord": 100.2,
     "japaneseName": "ヨーロッパ（ユダイクス）",
@@ -9225,7 +9120,7 @@
     "scientificName": "laticornis",
     "captiveRecord": 65.3,
     "wildRecord": 62.7,
-    "japaneseName": "ラディコルニス",
+    "japaneseName": "ラティコルニス",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
@@ -9240,11 +9135,11 @@
     },
     "genus": "深山屬 Lucanus",
     "commonName": "拉叉深山",
-    "scientificName": "laminifer",
-    "captiveRecord": 85.1,
+    "scientificName": "laminifer laminifer",
+    "captiveRecord": 84.1,
     "wildRecord": 85.2,
     "japaneseName": "ラミニフェル（原名亜種）",
-    "year": 2023,
+    "year": 2021,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
     },
@@ -9384,10 +9279,10 @@
     },
     "genus": "肥角屬 Aegus",
     "commonName": "阿克米娜特斯肥角",
-    "scientificName": "acminatus cicatricosus",
+    "scientificName": "acuminatus cicatricosus",
     "captiveRecord": 38.7,
     "wildRecord": 36.6,
-    "japaneseName": "アクミナートゥス（爪哇）",
+    "japaneseName": "アクミナートゥス（ジャワ）",
     "year": 2009,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.531Z"
@@ -9402,7 +9297,7 @@
     },
     "genus": "肥角屬 Aegus",
     "commonName": "阿克米娜特斯肥角",
-    "scientificName": "acminatus acminatus",
+    "scientificName": "acuminatus acuminatus",
     "captiveRecord": 40.2,
     "wildRecord": 41,
     "japaneseName": "アクミナートゥス（原名亜種）",
@@ -9423,7 +9318,7 @@
     "scientificName": "implicatus",
     "captiveRecord": 37.4,
     "wildRecord": 38,
-    "japaneseName": "インプリカトゥス",
+    "japaneseName": "インプリカートゥス",
     "year": 2020,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.532Z"
@@ -9441,7 +9336,7 @@
     "scientificName": "impressicollis patrici",
     "captiveRecord": 33.5,
     "wildRecord": 31.4,
-    "japaneseName": "インプレッシコリス(patrici)",
+    "japaneseName": "インプレッシコリス（patrici）",
     "year": 2013,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.532Z"
@@ -9528,7 +9423,7 @@
     },
     "genus": "肥角屬 Aegus",
     "commonName": "南洋肥角",
-    "scientificName": "chelifer",
+    "scientificName": "chelifer chelifer",
     "captiveRecord": 38.5,
     "wildRecord": 39.5,
     "japaneseName": "チェリフェル（原名亜種）",
@@ -9565,7 +9460,7 @@
     },
     "genus": "肥角屬 Aegus",
     "commonName": "〈尚無中文名〉",
-    "scientificName": "bigibbosus",
+    "scientificName": "bigibbosus jeppeseni",
     "captiveRecord": 37.7,
     "wildRecord": 38.2,
     "japaneseName": "ビギボッスス（jeppeseni）",
@@ -9583,9 +9478,9 @@
     },
     "genus": "肥角屬 Aegus",
     "commonName": "菲律賓肥角",
-    "scientificName": "phillippinensis banggaiensis",
+    "scientificName": "philippinensis banggaiensis",
     "captiveRecord": 41.5,
-    "wildRecord": 30.1,
+    "wildRecord": 39.5,
     "japaneseName": "フィリピン（banggaiensis）",
     "year": 2021,
     "createdAt": {
@@ -9601,9 +9496,9 @@
     },
     "genus": "肥角屬 Aegus",
     "commonName": "菲律賓肥角",
-    "scientificName": "phillippinensis phillippinensis",
+    "scientificName": "philippinensis philippinensis",
     "captiveRecord": 32.1,
-    "wildRecord": 30,
+    "wildRecord": 30.3,
     "japaneseName": "フィリピン（原名亜種）",
     "year": 2019,
     "createdAt": {
@@ -9657,7 +9552,7 @@
     "commonName": "星肥角",
     "scientificName": "platyodon platyodon",
     "captiveRecord": 57.3,
-    "wildRecord": 49.6,
+    "wildRecord": 51.2,
     "japaneseName": "プラティオドン（原名亜種）",
     "year": 2011,
     "createdAt": {
@@ -9675,7 +9570,7 @@
     "commonName": "〈尚無中文名〉",
     "scientificName": "punctithorax",
     "captiveRecord": 33.9,
-    "wildRecord": 30,
+    "wildRecord": 30.4,
     "japaneseName": "プンクティトラックス",
     "year": 2022,
     "createdAt": {
@@ -9747,7 +9642,7 @@
     "commonName": "民答那娥肥角",
     "scientificName": "mindanaoensis",
     "captiveRecord": 39.8,
-    "wildRecord": 40,
+    "wildRecord": 40.6,
     "japaneseName": "ミンダナオ",
     "year": 2022,
     "createdAt": {
@@ -9765,7 +9660,7 @@
     "commonName": "〈尚無中文名〉",
     "scientificName": "jansoni",
     "captiveRecord": 37.1,
-    "wildRecord": 44,
+    "wildRecord": 25,
     "japaneseName": "ヤンソン",
     "year": 2024,
     "createdAt": {
@@ -9820,7 +9715,7 @@
     "commonName": "〈尚無中文名〉",
     "scientificName": "rondoni",
     "captiveRecord": 38.8,
-    "wildRecord": 28.9,
+    "wildRecord": 35.2,
     "japaneseName": "ロンドン",
     "year": 2016,
     "createdAt": {
@@ -10000,7 +9895,7 @@
     "commonName": "八重山肥角",
     "scientificName": "ishigakiensis ishigakiensis",
     "captiveRecord": 32.8,
-    "wildRecord": 24,
+    "wildRecord": 33,
     "japaneseName": "ヤエヤマネブト",
     "year": 2004,
     "createdAt": {
@@ -10217,7 +10112,7 @@
     "scientificName": "Sphaenognathus feisthameli",
     "captiveRecord": 62.6,
     "wildRecord": 76.4,
-    "japaneseName": "フェイスタメルシワバネ",
+    "japaneseName": "フェイスタメル",
     "year": 2022,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.532Z"
@@ -10251,7 +10146,7 @@
     },
     "genus": "其他 Others",
     "commonName": "碧綠鬼",
-    "scientificName": "Primognathus piluensis",
+    "scientificName": "Prismognathus puliensis",
     "captiveRecord": 31.6,
     "wildRecord": 24.5,
     "japaneseName": "ヘキロクオニ",
@@ -10270,7 +10165,7 @@
     },
     "genus": "其他 Others",
     "commonName": "鬼鍬",
-    "scientificName": "Prismognathus angularis",
+    "scientificName": "Prismognathus angularis angularis",
     "captiveRecord": 27,
     "wildRecord": 27.2,
     "japaneseName": "オニ",
@@ -10288,7 +10183,7 @@
     },
     "genus": "其他 Others",
     "commonName": "九州鬼",
-    "scientificName": "P. angularis morimotoi",
+    "scientificName": "Prismognathus angularis morimotoi",
     "captiveRecord": null,
     "wildRecord": 26.1,
     "japaneseName": "キュウシュウオニ",
@@ -10417,7 +10312,7 @@
     "scientificName": "Casignetus spixi",
     "captiveRecord": 36.3,
     "wildRecord": 38,
-    "japaneseName": "スビックスコフキ",
+    "japaneseName": "スピックスコフキ",
     "year": 2025,
     "createdAt": {
       "$date": "2026-01-21T07:41:19.532Z"
@@ -10468,7 +10363,7 @@
     },
     "genus": "其他 Others",
     "commonName": "〈尚無中文名〉",
-    "scientificName": "Leptinopterrus fryi",
+    "scientificName": "Leptinopterus fryi",
     "captiveRecord": 42,
     "wildRecord": 46.5,
     "japaneseName": "フライホソ",
@@ -10488,7 +10383,7 @@
     "commonName": "〈尚無中文名〉",
     "scientificName": "Casignetus lindei",
     "captiveRecord": 42,
-    "wildRecord": 37,
+    "wildRecord": 38,
     "japaneseName": "リンデコフキ",
     "year": 2024,
     "createdAt": {
@@ -10515,5 +10410,41 @@
     "updatedAt": {
       "$date": "2026-01-21T07:41:19.532Z"
     }
+  },
+  {
+    "genus": "扁鍬(大鍬屬) Dorcus",
+    "commonName": "尼多夫大鍬",
+    "scientificName": "niedorfi",
+    "captiveRecord": 51.5,
+    "wildRecord": 55.7,
+    "japaneseName": "ニードルフ",
+    "year": 2013
+  },
+  {
+    "genus": "扁鍬(大鍬屬) Dorcus",
+    "commonName": "滇越大鍬",
+    "scientificName": "laevidorsis laevidorsis",
+    "captiveRecord": 67.4,
+    "wildRecord": 64.6,
+    "japaneseName": "ラエヴィドルシス（原名亜種）",
+    "year": 2015
+  },
+  {
+    "genus": "豔鍬屬 Odontolabis",
+    "commonName": "留特涅艷",
+    "scientificName": "leuthneri",
+    "captiveRecord": 59.6,
+    "wildRecord": 78.3,
+    "japaneseName": "リュートネル",
+    "year": 2022
+  },
+  {
+    "genus": "扁鍬(大鍬屬) Dorcus",
+    "commonName": "毛角大鍬",
+    "scientificName": "hirticornis ssp.",
+    "captiveRecord": 56.8,
+    "wildRecord": 59,
+    "japaneseName": "ヒルティコルニス（雲南）",
+    "year": 2023
   }
 ]
